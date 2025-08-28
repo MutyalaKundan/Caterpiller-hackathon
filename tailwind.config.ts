@@ -61,7 +61,28 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// Caterpillar brand colors
+				caterpillar: {
+					yellow: 'hsl(var(--caterpillar-yellow))',
+					'yellow-dark': 'hsl(var(--caterpillar-yellow-dark))',
+					black: 'hsl(var(--caterpillar-black))'
+				},
+				industrial: {
+					grey: 'hsl(var(--industrial-grey))',
+					'grey-dark': 'hsl(var(--industrial-grey-dark))'
 				}
+			},
+			backgroundImage: {
+				'gradient-caterpillar': 'var(--gradient-caterpillar)',
+				'gradient-industrial': 'var(--gradient-industrial)'
+			},
+			boxShadow: {
+				'caterpillar': 'var(--shadow-caterpillar)',
+				'industrial': 'var(--shadow-industrial)'
+			},
+			transitionTimingFunction: {
+				'smooth': 'var(--transition-smooth)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
