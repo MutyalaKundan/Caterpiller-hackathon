@@ -1,0 +1,645 @@
+maintenance_id,equipment_id,maintenance_date,maintenance_type,description,cost,duration_hours,technician_id,parts_replaced,next_maintenance_due,maintenance_score,downtime_hours,created_at
+1,CAT00001,2024-07-11,Corrective,Caterpillar Corrective maintenance,5806.59,2.33,TECH2922,"[""Lift Arms"", ""Axle""]",2025-01-24,8,20.46,2025-08-28 16:57:14
+2,CAT00001,2021-09-04,Preventive,Caterpillar Preventive maintenance,3690.83,14.54,TECH5189,"[""Axle""]",2022-01-11,10,48.25,2025-08-28 16:57:14
+3,CAT00001,2022-09-13,Corrective,Caterpillar Corrective maintenance,4194.01,15.93,TECH8756,"[""Lift Arms""]",2023-07-31,10,10.78,2025-08-28 16:57:14
+4,CAT00002,2019-07-13,Corrective,Caterpillar Corrective maintenance,5790.55,13.42,TECH1433,"[""PTO"", ""Stabilizer""]",2020-05-01,9,34.97,2025-08-28 16:57:14
+5,CAT00002,2023-06-15,Preventive,Caterpillar Preventive maintenance,2296.38,11.14,TECH5440,"[""Loader Bucket""]",2024-04-03,9,38.84,2025-08-28 16:57:14
+6,CAT00002,2025-03-23,Corrective,Caterpillar Corrective maintenance,3394.4,12.3,TECH8035,"[""Loader Bucket""]",2025-11-29,8,71.21,2025-08-28 16:57:14
+7,CAT00002,2022-11-17,Preventive,Caterpillar Preventive maintenance,802.18,4.19,TECH2173,"[""Loader Bucket"", ""Stabilizer"", ""Backhoe Bucket""]",2023-07-28,10,47.96,2025-08-28 16:57:14
+8,CAT00002,2025-04-14,Preventive,Caterpillar Preventive maintenance,5395.0,3.82,TECH3269,"[""Backhoe Bucket"", ""Loader Bucket""]",2025-10-16,9,53.48,2025-08-28 16:57:14
+9,CAT00003,2020-02-02,Preventive,Caterpillar Preventive maintenance,2796.64,6.72,TECH3701,"[""Pressure Switch"", ""Air Filter"", ""Tank""]",2020-09-12,9,68.06,2025-08-28 16:57:14
+10,CAT00003,2021-10-19,Corrective,Caterpillar Corrective maintenance,2156.78,8.8,TECH3013,"[""Pressure Switch""]",2022-02-07,8,33.93,2025-08-28 16:57:14
+11,CAT00003,2018-07-10,Preventive,Caterpillar Preventive maintenance,2451.61,7.52,TECH4465,"[""Pressure Switch"", ""Air Filter"", ""Compressor Pump""]",2019-06-09,10,67.01,2025-08-28 16:57:14
+12,CAT00003,2019-11-18,Preventive,Caterpillar Preventive maintenance,3691.24,13.9,TECH6651,"[""Pressure Switch""]",2020-04-20,10,36.43,2025-08-28 16:57:14
+13,CAT00004,2019-02-08,Preventive,Caterpillar Preventive maintenance,3421.07,10.4,TECH2957,"[""Compressor Pump""]",2019-11-22,8,47.56,2025-08-28 16:57:14
+14,CAT00004,2018-09-06,Corrective,Caterpillar Corrective maintenance,1756.59,9.34,TECH6631,"[""Air Filter""]",2019-02-23,10,25.24,2025-08-28 16:57:14
+15,CAT00004,2024-08-22,Emergency,Caterpillar Emergency maintenance,5570.2,12.96,TECH2460,"[""Air Filter""]",2025-08-22,10,46.24,2025-08-28 16:57:14
+16,CAT00005,2024-07-18,Preventive,Caterpillar Preventive maintenance,1718.02,3.08,TECH8578,"[""Tank""]",2025-02-11,8,57.13,2025-08-28 16:57:14
+17,CAT00005,2021-06-21,Preventive,Caterpillar Preventive maintenance,2367.15,4.24,TECH2276,"[""Pressure Switch""]",2021-09-22,10,18.19,2025-08-28 16:57:14
+18,CAT00005,2021-05-24,Preventive,Caterpillar Preventive maintenance,921.8,9.39,TECH7863,"[""Air Filter"", ""Pressure Switch""]",2021-10-21,8,40.11,2025-08-28 16:57:14
+19,CAT00005,2024-04-19,Preventive,Caterpillar Preventive maintenance,1867.75,6.47,TECH8825,"[""Pressure Switch""]",2024-08-02,9,68.29,2025-08-28 16:57:14
+20,CAT00005,2021-08-24,Corrective,Caterpillar Corrective maintenance,5099.37,6.07,TECH2726,"[""Tank"", ""Air Filter""]",2022-03-08,9,46.28,2025-08-28 16:57:14
+21,CAT00006,2024-10-17,Preventive,Caterpillar Preventive maintenance,2029.65,6.4,TECH1271,"[""Suspension""]",2025-02-05,9,55.1,2025-08-28 16:57:14
+22,CAT00006,2020-05-26,Preventive,Caterpillar Preventive maintenance,2273.71,4.97,TECH1147,"[""Dump Body"", ""Differential""]",2020-08-28,10,61.66,2025-08-28 16:57:14
+23,CAT00006,2022-04-30,Preventive,Caterpillar Preventive maintenance,2665.25,13.83,TECH8462,"[""Suspension"", ""Brakes"", ""Dump Body""]",2022-10-02,8,35.53,2025-08-28 16:57:14
+24,CAT00006,2016-09-13,Corrective,Caterpillar Corrective maintenance,1681.36,7.72,TECH5193,"[""Suspension"", ""Brakes""]",2017-07-17,8,55.65,2025-08-28 16:57:14
+25,CAT00006,2023-02-17,Preventive,Caterpillar Preventive maintenance,3837.66,11.87,TECH1863,"[""Dump Body""]",2023-12-04,9,21.71,2025-08-28 16:57:14
+26,CAT00007,2023-05-19,Preventive,Caterpillar Preventive maintenance,5685.92,3.38,TECH2813,"[""Sprocket"", ""Boom Cylinder"", ""Hydraulic Pump""]",2024-03-13,9,9.05,2025-08-28 16:57:14
+27,CAT00007,2024-10-12,Preventive,Caterpillar Preventive maintenance,5571.96,2.79,TECH3742,"[""Hydraulic Pump"", ""Sprocket"", ""Track Assembly""]",2025-05-04,10,18.65,2025-08-28 16:57:14
+28,CAT00007,2024-11-28,Preventive,Caterpillar Preventive maintenance,2305.46,9.84,TECH9125,"[""Hydraulic Pump"", ""Sprocket"", ""Boom Cylinder""]",2025-08-23,10,61.6,2025-08-28 16:57:14
+29,CAT00007,2024-03-12,Preventive,Caterpillar Preventive maintenance,5857.91,15.2,TECH4107,"[""Sprocket"", ""Boom Cylinder""]",2025-02-16,9,60.27,2025-08-28 16:57:14
+30,CAT00007,2025-07-25,Corrective,Caterpillar Corrective maintenance,5212.38,11.66,TECH5044,"[""Hydraulic Pump""]",2026-03-31,10,13.87,2025-08-28 16:57:14
+31,CAT00008,2017-01-21,Preventive,Caterpillar Preventive maintenance,5459.05,6.3,TECH7770,"[""Compressor Pump"", ""Air Filter"", ""Pressure Switch""]",2017-05-09,10,54.68,2025-08-28 16:57:14
+32,CAT00008,2020-02-27,Preventive,Caterpillar Preventive maintenance,3301.99,10.12,TECH2556,"[""Pressure Switch""]",2020-08-29,10,39.37,2025-08-28 16:57:14
+33,CAT00009,2023-03-23,Preventive,Caterpillar Preventive maintenance,5280.61,3.01,TECH7532,"[""Scarifier""]",2024-01-30,10,13.74,2025-08-28 16:57:14
+34,CAT00009,2021-04-14,Preventive,Caterpillar Preventive maintenance,3592.58,8.33,TECH7855,"[""Moldboard"", ""Circle""]",2022-01-23,9,33.45,2025-08-28 16:57:14
+35,CAT00009,2022-10-16,Preventive,Caterpillar Preventive maintenance,2177.84,13.02,TECH2078,"[""Blade""]",2023-03-07,9,71.92,2025-08-28 16:57:14
+36,CAT00009,2020-08-29,Corrective,Caterpillar Corrective maintenance,5166.65,15.15,TECH5204,"[""Circle"", ""Blade"", ""Moldboard""]",2021-08-07,8,17.59,2025-08-28 16:57:14
+37,CAT00010,2023-01-05,Preventive,Caterpillar Preventive maintenance,1369.77,10.76,TECH7676,"[""Axle"", ""Transmission""]",2023-04-28,8,8.69,2025-08-28 16:57:14
+38,CAT00011,2023-06-11,Corrective,Caterpillar Corrective maintenance,1229.55,3.14,TECH4846,"[""Sprocket"", ""Track Assembly""]",2024-02-13,8,22.62,2025-08-28 16:57:14
+39,CAT00011,2023-05-06,Preventive,Caterpillar Preventive maintenance,4264.03,12.82,TECH9219,"[""Boom Cylinder""]",2024-01-30,9,17.58,2025-08-28 16:57:14
+40,CAT00011,2025-02-24,Corrective,Caterpillar Corrective maintenance,2666.21,10.51,TECH6408,"[""Track Assembly""]",2025-08-10,9,58.01,2025-08-28 16:57:14
+41,CAT00012,2022-08-08,Preventive,Caterpillar Preventive maintenance,4772.77,15.08,TECH2120,"[""Pallet Forks"", ""Grapple""]",2023-07-01,9,59.19,2025-08-28 16:57:14
+42,CAT00012,2022-03-22,Preventive,Caterpillar Preventive maintenance,3679.28,10.96,TECH7267,"[""Pallet Forks"", ""Auger""]",2023-02-11,9,36.34,2025-08-28 16:57:14
+43,CAT00013,2023-02-26,Corrective,Caterpillar Corrective maintenance,3462.24,6.4,TECH1949,"[""Moldboard"", ""Scarifier"", ""Blade""]",2023-06-09,10,27.0,2025-08-28 16:57:14
+44,CAT00013,2024-12-06,Preventive,Caterpillar Preventive maintenance,3773.69,12.08,TECH2620,"[""Blade""]",2025-04-10,9,57.16,2025-08-28 16:57:14
+45,CAT00013,2023-01-12,Corrective,Caterpillar Corrective maintenance,4302.1,4.82,TECH7300,"[""Moldboard""]",2023-10-05,8,21.51,2025-08-28 16:57:14
+46,CAT00013,2021-09-19,Corrective,Caterpillar Corrective maintenance,4132.96,3.62,TECH9135,"[""Circle"", ""Blade""]",2022-06-28,9,53.49,2025-08-28 16:57:14
+47,CAT00013,2022-11-29,Preventive,Caterpillar Preventive maintenance,1624.71,8.65,TECH7076,"[""Blade""]",2023-05-08,9,45.7,2025-08-28 16:57:14
+48,CAT00014,2022-02-22,Corrective,Caterpillar Corrective maintenance,5329.19,11.89,TECH3221,"[""Radiator"", ""Ripper""]",2022-08-08,9,51.7,2025-08-28 16:57:14
+49,CAT00014,2023-09-27,Preventive,Caterpillar Preventive maintenance,2224.62,3.95,TECH2939,"[""Ripper"", ""Final Drive""]",2024-01-25,10,59.05,2025-08-28 16:57:14
+50,CAT00014,2024-04-11,Preventive,Caterpillar Preventive maintenance,4139.88,7.02,TECH5523,"[""Radiator"", ""Final Drive"", ""Ripper""]",2025-03-11,9,63.72,2025-08-28 16:57:14
+51,CAT00014,2023-01-02,Corrective,Caterpillar Corrective maintenance,4736.98,12.13,TECH1244,"[""Ripper""]",2023-09-25,10,46.97,2025-08-28 16:57:14
+52,CAT00015,2021-10-14,Preventive,Caterpillar Preventive maintenance,1439.6,5.58,TECH6073,"[""Snow Blower""]",2022-05-22,8,46.25,2025-08-28 16:57:14
+53,CAT00015,2023-04-23,Preventive,Caterpillar Preventive maintenance,1741.46,11.36,TECH6646,"[""Snow Blower"", ""Grapple"", ""Pallet Forks""]",2023-12-24,9,49.92,2025-08-28 16:57:14
+54,CAT00015,2025-07-15,Preventive,Caterpillar Preventive maintenance,3644.48,7.68,TECH3879,"[""Grapple"", ""Pallet Forks"", ""Auger""]",2025-12-01,9,44.81,2025-08-28 16:57:14
+55,CAT00015,2023-06-26,Preventive,Caterpillar Preventive maintenance,5358.17,2.53,TECH4920,"[""Grapple"", ""Auger""]",2024-03-19,8,70.3,2025-08-28 16:57:14
+56,CAT00016,2025-05-31,Emergency,Caterpillar Emergency maintenance,1230.77,15.44,TECH5365,"[""Suspension""]",2025-12-03,8,33.34,2025-08-28 16:57:14
+57,CAT00016,2023-12-30,Corrective,Caterpillar Corrective maintenance,1743.93,5.71,TECH2313,"[""Suspension"", ""Differential""]",2024-08-26,8,31.21,2025-08-28 16:57:14
+58,CAT00016,2018-12-22,Preventive,Caterpillar Preventive maintenance,3857.17,10.99,TECH3875,"[""Brakes"", ""Dump Body"", ""Suspension""]",2019-08-29,10,49.61,2025-08-28 16:57:14
+59,CAT00016,2017-10-19,Corrective,Caterpillar Corrective maintenance,1677.08,4.91,TECH8303,"[""Suspension"", ""Brakes""]",2018-02-25,10,9.34,2025-08-28 16:57:14
+60,CAT00016,2021-01-31,Preventive,Caterpillar Preventive maintenance,4871.54,15.57,TECH8636,"[""Brakes"", ""Suspension""]",2021-11-08,10,27.87,2025-08-28 16:57:14
+61,CAT00017,2020-05-18,Preventive,Caterpillar Preventive maintenance,3736.16,15.15,TECH3381,"[""Lift Arms""]",2020-11-25,9,53.56,2025-08-28 16:57:14
+62,CAT00017,2022-08-12,Corrective,Caterpillar Corrective maintenance,4375.24,6.06,TECH5169,"[""Bucket"", ""Transmission""]",2023-07-24,9,30.92,2025-08-28 16:57:14
+63,CAT00017,2023-11-23,Emergency,Caterpillar Emergency maintenance,2808.81,9.96,TECH8012,"[""Bucket"", ""Lift Arms"", ""Axle""]",2024-05-11,9,19.11,2025-08-28 16:57:14
+64,CAT00018,2022-09-06,Preventive,Caterpillar Preventive maintenance,3747.19,11.6,TECH8103,"[""Air Filter""]",2023-06-06,9,69.05,2025-08-28 16:57:14
+65,CAT00018,2024-09-20,Preventive,Caterpillar Preventive maintenance,2443.03,6.99,TECH7925,"[""Air Filter"", ""Pressure Switch"", ""Tank""]",2024-12-29,9,10.63,2025-08-28 16:57:14
+66,CAT00019,2019-04-11,Corrective,Caterpillar Corrective maintenance,5670.54,5.35,TECH4067,"[""Alternator"", ""Starter"", ""Fuel Injector""]",2019-10-05,8,17.6,2025-08-28 16:57:14
+67,CAT00019,2016-06-30,Preventive,Caterpillar Preventive maintenance,3968.48,2.62,TECH5010,"[""Starter"", ""Alternator""]",2016-10-13,10,58.25,2025-08-28 16:57:14
+68,CAT00020,2021-03-28,Corrective,Caterpillar Corrective maintenance,5516.48,15.15,TECH3147,"[""Boom Cylinder"", ""Sprocket""]",2022-01-09,8,15.53,2025-08-28 16:57:14
+69,CAT00020,2025-01-18,Preventive,Caterpillar Preventive maintenance,5975.04,7.19,TECH7663,"[""Boom Cylinder"", ""Track Assembly""]",2025-05-30,8,33.36,2025-08-28 16:57:14
+70,CAT00020,2024-09-22,Emergency,Caterpillar Emergency maintenance,4229.52,10.69,TECH5475,"[""Hydraulic Pump"", ""Track Assembly"", ""Boom Cylinder""]",2025-04-04,10,54.44,2025-08-28 16:57:14
+71,CAT00020,2021-02-09,Corrective,Caterpillar Corrective maintenance,5820.55,11.59,TECH6720,"[""Track Assembly"", ""Hydraulic Pump""]",2021-08-19,8,18.33,2025-08-28 16:57:14
+72,CAT00021,2024-10-26,Emergency,Caterpillar Emergency maintenance,1297.18,7.04,TECH3797,"[""Pallet Forks""]",2025-10-08,9,9.37,2025-08-28 16:57:14
+73,CAT00021,2025-07-01,Preventive,Caterpillar Preventive maintenance,1912.01,6.65,TECH3754,"[""Pallet Forks"", ""Grapple""]",2026-03-13,9,12.36,2025-08-28 16:57:14
+74,CAT00021,2023-01-07,Preventive,Caterpillar Preventive maintenance,5396.66,3.79,TECH7640,"[""Snow Blower"", ""Pallet Forks"", ""Auger""]",2023-09-23,9,60.06,2025-08-28 16:57:14
+75,CAT00021,2024-07-07,Preventive,Caterpillar Preventive maintenance,2303.92,8.44,TECH5708,"[""Snow Blower"", ""Pallet Forks""]",2024-11-19,8,62.49,2025-08-28 16:57:14
+76,CAT00022,2019-09-10,Preventive,Caterpillar Preventive maintenance,5097.67,5.28,TECH5668,"[""Transmission""]",2020-01-16,8,49.16,2025-08-28 16:57:14
+77,CAT00023,2025-05-04,Corrective,Caterpillar Corrective maintenance,3982.87,9.01,TECH9105,"[""Air Filter""]",2025-09-18,8,70.05,2025-08-28 16:57:14
+78,CAT00023,2022-09-30,Preventive,Caterpillar Preventive maintenance,1241.33,7.32,TECH7693,"[""Air Filter"", ""Pressure Switch"", ""Tank""]",2023-04-16,10,32.12,2025-08-28 16:57:14
+79,CAT00023,2024-03-01,Emergency,Caterpillar Emergency maintenance,3987.63,7.85,TECH6629,"[""Tank"", ""Pressure Switch""]",2024-11-06,10,65.65,2025-08-28 16:57:14
+80,CAT00023,2024-04-02,Preventive,Caterpillar Preventive maintenance,2587.9,13.3,TECH7186,"[""Air Filter"", ""Compressor Pump""]",2024-07-20,10,24.44,2025-08-28 16:57:14
+81,CAT00023,2025-02-07,Preventive,Caterpillar Preventive maintenance,4790.76,15.67,TECH1172,"[""Tank""]",2025-09-28,8,13.05,2025-08-28 16:57:14
+82,CAT00024,2018-03-25,Preventive,Caterpillar Preventive maintenance,1115.56,10.8,TECH1251,"[""Stabilizer"", ""PTO"", ""Backhoe Bucket""]",2019-01-19,9,37.33,2025-08-28 16:57:14
+83,CAT00025,2023-05-15,Preventive,Caterpillar Preventive maintenance,5053.33,5.22,TECH2944,"[""PTO"", ""Backhoe Bucket"", ""Stabilizer""]",2024-05-05,10,53.8,2025-08-28 16:57:14
+84,CAT00025,2024-09-25,Preventive,Caterpillar Preventive maintenance,4027.17,8.67,TECH5003,"[""Stabilizer""]",2025-05-18,8,27.76,2025-08-28 16:57:14
+85,CAT00025,2021-11-30,Corrective,Caterpillar Corrective maintenance,5010.85,10.65,TECH4661,"[""Backhoe Bucket""]",2022-06-22,10,62.5,2025-08-28 16:57:14
+86,CAT00025,2020-05-09,Preventive,Caterpillar Preventive maintenance,1440.24,6.14,TECH9041,"[""Loader Bucket""]",2021-03-23,8,24.42,2025-08-28 16:57:14
+87,CAT00025,2019-01-26,Corrective,Caterpillar Corrective maintenance,5232.08,11.74,TECH2572,"[""Loader Bucket""]",2019-09-11,10,10.63,2025-08-28 16:57:14
+88,CAT00026,2025-08-23,Corrective,Caterpillar Corrective maintenance,2748.08,12.87,TECH7736,"[""Vibratory System""]",2026-08-09,10,16.86,2025-08-28 16:57:14
+89,CAT00026,2021-07-02,Preventive,Caterpillar Preventive maintenance,3185.99,2.4,TECH9298,"[""Engine""]",2022-01-23,9,66.61,2025-08-28 16:57:14
+90,CAT00026,2018-04-03,Preventive,Caterpillar Preventive maintenance,3626.75,13.74,TECH6097,"[""Vibratory System"", ""Water System"", ""Engine""]",2018-11-08,10,71.18,2025-08-28 16:57:14
+91,CAT00026,2024-10-12,Preventive,Caterpillar Preventive maintenance,2613.53,7.08,TECH8656,"[""Engine""]",2025-02-02,8,32.18,2025-08-28 16:57:14
+92,CAT00026,2025-07-28,Corrective,Caterpillar Corrective maintenance,4827.46,9.29,TECH8259,"[""Vibratory System""]",2026-04-10,9,38.16,2025-08-28 16:57:14
+93,CAT00027,2022-09-30,Preventive,Caterpillar Preventive maintenance,2945.8,8.16,TECH7894,"[""Tank"", ""Pressure Switch""]",2023-08-02,8,55.11,2025-08-28 16:57:14
+94,CAT00027,2024-04-09,Preventive,Caterpillar Preventive maintenance,1076.75,5.44,TECH6275,"[""Pressure Switch"", ""Tank"", ""Air Filter""]",2025-04-07,9,51.17,2025-08-28 16:57:14
+95,CAT00027,2024-06-19,Corrective,Caterpillar Corrective maintenance,1352.91,8.35,TECH8431,"[""Air Filter""]",2024-10-31,10,54.61,2025-08-28 16:57:14
+96,CAT00028,2024-01-12,Preventive,Caterpillar Preventive maintenance,4235.09,12.1,TECH3863,"[""PTO""]",2024-08-12,8,46.01,2025-08-28 16:57:14
+97,CAT00028,2024-12-04,Preventive,Caterpillar Preventive maintenance,4799.09,4.02,TECH4855,"[""Backhoe Bucket"", ""PTO"", ""Loader Bucket""]",2025-09-02,9,29.15,2025-08-28 16:57:14
+98,CAT00028,2022-02-09,Preventive,Caterpillar Preventive maintenance,3462.9,14.34,TECH6301,"[""PTO""]",2022-08-20,9,31.72,2025-08-28 16:57:14
+99,CAT00029,2024-12-20,Preventive,Caterpillar Preventive maintenance,1159.41,14.98,TECH9015,"[""Blade""]",2025-11-21,10,50.9,2025-08-28 16:57:14
+100,CAT00029,2023-10-03,Corrective,Caterpillar Corrective maintenance,3175.23,11.03,TECH1346,"[""Blade""]",2024-08-10,9,71.28,2025-08-28 16:57:14
+101,CAT00029,2024-08-15,Preventive,Caterpillar Preventive maintenance,3900.54,6.01,TECH9991,"[""Ripper"", ""Blade"", ""Final Drive""]",2025-07-08,8,17.52,2025-08-28 16:57:14
+102,CAT00029,2024-06-16,Emergency,Caterpillar Emergency maintenance,4295.68,2.57,TECH2917,"[""Radiator"", ""Ripper""]",2025-01-17,8,44.98,2025-08-28 16:57:14
+103,CAT00030,2022-10-10,Preventive,Caterpillar Preventive maintenance,1038.26,13.02,TECH4095,"[""Air Filter""]",2023-05-21,8,25.4,2025-08-28 16:57:14
+104,CAT00031,2020-03-22,Preventive,Caterpillar Preventive maintenance,5600.25,6.58,TECH6222,"[""Blade"", ""Scarifier"", ""Moldboard""]",2021-01-03,8,49.06,2025-08-28 16:57:14
+105,CAT00031,2019-09-14,Preventive,Caterpillar Preventive maintenance,4747.38,7.17,TECH3474,"[""Circle"", ""Scarifier"", ""Moldboard""]",2020-05-03,9,52.95,2025-08-28 16:57:14
+106,CAT00031,2024-06-24,Preventive,Caterpillar Preventive maintenance,1511.53,7.4,TECH6012,"[""Circle"", ""Moldboard"", ""Blade""]",2025-04-18,10,37.35,2025-08-28 16:57:14
+107,CAT00032,2024-01-20,Preventive,Caterpillar Preventive maintenance,890.15,7.75,TECH8114,"[""Stabilizer"", ""PTO""]",2024-12-11,10,53.84,2025-08-28 16:57:14
+108,CAT00032,2023-05-24,Preventive,Caterpillar Preventive maintenance,2564.86,10.92,TECH3002,"[""Stabilizer""]",2023-11-10,10,14.29,2025-08-28 16:57:14
+109,CAT00032,2021-06-13,Preventive,Caterpillar Preventive maintenance,3242.16,12.01,TECH1180,"[""Loader Bucket"", ""PTO""]",2021-12-19,8,61.06,2025-08-28 16:57:14
+110,CAT00032,2021-06-03,Preventive,Caterpillar Preventive maintenance,4017.81,7.17,TECH4940,"[""Stabilizer"", ""Backhoe Bucket"", ""PTO""]",2022-04-26,9,46.16,2025-08-28 16:57:14
+111,CAT00032,2022-06-09,Preventive,Caterpillar Preventive maintenance,4008.6,15.0,TECH6608,"[""Stabilizer"", ""Backhoe Bucket"", ""Loader Bucket""]",2023-02-16,9,34.04,2025-08-28 16:57:14
+112,CAT00033,2021-10-15,Preventive,Caterpillar Preventive maintenance,3421.93,13.9,TECH6890,"[""Alternator"", ""Starter"", ""Fuel Injector""]",2022-02-19,8,61.82,2025-08-28 16:57:14
+113,CAT00033,2024-02-11,Corrective,Caterpillar Corrective maintenance,4685.84,13.22,TECH4966,"[""Fuel Injector""]",2024-09-01,9,32.19,2025-08-28 16:57:14
+114,CAT00033,2020-01-20,Emergency,Caterpillar Emergency maintenance,4438.61,11.15,TECH9832,"[""Starter"", ""Voltage Regulator"", ""Fuel Injector""]",2020-11-14,10,48.8,2025-08-28 16:57:14
+115,CAT00034,2019-09-19,Emergency,Caterpillar Emergency maintenance,3897.77,5.26,TECH1437,"[""Pressure Switch"", ""Air Filter""]",2020-09-15,9,34.79,2025-08-28 16:57:14
+116,CAT00034,2022-12-07,Preventive,Caterpillar Preventive maintenance,2204.2,8.63,TECH8802,"[""Air Filter""]",2023-11-22,9,69.63,2025-08-28 16:57:14
+117,CAT00034,2023-06-02,Corrective,Caterpillar Corrective maintenance,5672.87,6.52,TECH6709,"[""Compressor Pump""]",2023-10-19,9,70.83,2025-08-28 16:57:14
+118,CAT00034,2019-07-03,Preventive,Caterpillar Preventive maintenance,1534.05,7.42,TECH9250,"[""Compressor Pump"", ""Pressure Switch""]",2019-12-02,9,57.78,2025-08-28 16:57:14
+119,CAT00035,2024-02-25,Preventive,Caterpillar Preventive maintenance,1762.27,7.05,TECH5761,"[""Air Filter"", ""Pressure Switch"", ""Tank""]",2024-05-27,9,44.44,2025-08-28 16:57:14
+120,CAT00035,2018-06-29,Preventive,Caterpillar Preventive maintenance,2341.6,6.51,TECH2771,"[""Air Filter"", ""Compressor Pump""]",2019-01-09,10,14.35,2025-08-28 16:57:14
+121,CAT00035,2022-02-24,Corrective,Caterpillar Corrective maintenance,4645.21,13.13,TECH9520,"[""Tank"", ""Air Filter""]",2022-09-29,9,24.93,2025-08-28 16:57:14
+122,CAT00035,2024-02-12,Preventive,Caterpillar Preventive maintenance,4014.85,13.73,TECH1908,"[""Tank"", ""Pressure Switch"", ""Compressor Pump""]",2024-07-08,8,63.46,2025-08-28 16:57:14
+123,CAT00036,2022-09-24,Preventive,Caterpillar Preventive maintenance,5793.84,12.57,TECH7013,"[""Track Assembly""]",2023-07-03,10,68.94,2025-08-28 16:57:14
+124,CAT00036,2023-06-12,Preventive,Caterpillar Preventive maintenance,957.48,8.46,TECH5483,"[""Sprocket"", ""Boom Cylinder""]",2024-03-07,9,46.78,2025-08-28 16:57:14
+125,CAT00037,2019-12-08,Preventive,Caterpillar Preventive maintenance,3848.19,3.5,TECH8265,"[""Drum"", ""Water System""]",2020-11-05,10,47.54,2025-08-28 16:57:14
+126,CAT00038,2022-08-24,Preventive,Caterpillar Preventive maintenance,1170.98,14.27,TECH2953,"[""Final Drive""]",2023-05-28,8,36.42,2025-08-28 16:57:14
+127,CAT00038,2020-10-21,Preventive,Caterpillar Preventive maintenance,2033.25,7.4,TECH8139,"[""Blade"", ""Ripper"", ""Radiator""]",2021-01-26,8,57.71,2025-08-28 16:57:14
+128,CAT00038,2019-01-13,Preventive,Caterpillar Preventive maintenance,907.54,3.2,TECH8398,"[""Blade"", ""Final Drive""]",2019-10-25,9,56.05,2025-08-28 16:57:14
+129,CAT00038,2020-05-19,Corrective,Caterpillar Corrective maintenance,5586.64,8.45,TECH7145,"[""Blade"", ""Radiator"", ""Final Drive""]",2021-03-06,10,32.6,2025-08-28 16:57:14
+130,CAT00039,2024-03-13,Preventive,Caterpillar Preventive maintenance,3728.09,9.94,TECH3082,"[""Ripper"", ""Radiator"", ""Final Drive""]",2024-08-19,8,8.71,2025-08-28 16:57:14
+131,CAT00039,2024-12-04,Preventive,Caterpillar Preventive maintenance,1268.22,5.15,TECH8599,"[""Final Drive""]",2025-11-22,10,18.04,2025-08-28 16:57:14
+132,CAT00039,2024-03-26,Preventive,Caterpillar Preventive maintenance,2568.02,11.46,TECH3174,"[""Final Drive""]",2024-09-19,10,65.85,2025-08-28 16:57:14
+133,CAT00039,2024-12-23,Corrective,Caterpillar Corrective maintenance,4566.52,15.83,TECH7376,"[""Ripper"", ""Radiator"", ""Blade""]",2025-06-22,10,9.65,2025-08-28 16:57:14
+134,CAT00039,2024-01-05,Corrective,Caterpillar Corrective maintenance,5491.11,13.63,TECH7085,"[""Final Drive"", ""Radiator"", ""Ripper""]",2024-06-21,10,21.45,2025-08-28 16:57:14
+135,CAT00040,2023-03-04,Preventive,Caterpillar Preventive maintenance,1091.11,5.37,TECH7301,"[""Blade"", ""Ripper""]",2024-03-01,8,56.56,2025-08-28 16:57:14
+136,CAT00040,2022-10-14,Preventive,Caterpillar Preventive maintenance,5113.59,15.09,TECH6441,"[""Final Drive"", ""Blade"", ""Ripper""]",2023-03-18,9,15.82,2025-08-28 16:57:14
+137,CAT00040,2023-01-10,Preventive,Caterpillar Preventive maintenance,3738.35,4.12,TECH4334,"[""Ripper"", ""Radiator"", ""Blade""]",2023-10-21,9,54.67,2025-08-28 16:57:14
+138,CAT00040,2023-12-21,Preventive,Caterpillar Preventive maintenance,5981.61,9.27,TECH9753,"[""Final Drive"", ""Blade"", ""Radiator""]",2024-11-02,8,47.37,2025-08-28 16:57:14
+139,CAT00040,2021-06-13,Corrective,Caterpillar Corrective maintenance,5697.43,10.3,TECH1570,"[""Final Drive"", ""Ripper""]",2022-02-25,8,8.41,2025-08-28 16:57:14
+140,CAT00041,2024-06-25,Preventive,Caterpillar Preventive maintenance,4062.94,12.44,TECH3109,"[""Drum"", ""Vibratory System"", ""Engine""]",2025-04-17,9,66.27,2025-08-28 16:57:14
+141,CAT00042,2021-11-17,Preventive,Caterpillar Preventive maintenance,4474.54,12.27,TECH8823,"[""Air Filter"", ""Compressor Pump"", ""Pressure Switch""]",2022-05-29,8,12.3,2025-08-28 16:57:14
+142,CAT00042,2018-12-12,Emergency,Caterpillar Emergency maintenance,2504.17,15.5,TECH8655,"[""Pressure Switch"", ""Air Filter"", ""Tank""]",2019-04-30,8,28.45,2025-08-28 16:57:14
+143,CAT00042,2017-10-02,Preventive,Caterpillar Preventive maintenance,4852.14,9.02,TECH2334,"[""Air Filter"", ""Compressor Pump"", ""Tank""]",2018-03-15,10,57.03,2025-08-28 16:57:14
+144,CAT00042,2024-07-14,Preventive,Caterpillar Preventive maintenance,4105.98,2.78,TECH5306,"[""Pressure Switch""]",2024-11-28,8,45.38,2025-08-28 16:57:14
+145,CAT00043,2023-07-26,Preventive,Caterpillar Preventive maintenance,5208.97,14.41,TECH3619,"[""Bucket"", ""Lift Arms""]",2024-06-23,9,13.5,2025-08-28 16:57:14
+146,CAT00043,2023-03-20,Emergency,Caterpillar Emergency maintenance,5459.83,13.55,TECH5148,"[""Lift Arms"", ""Bucket""]",2024-01-25,9,37.75,2025-08-28 16:57:14
+147,CAT00043,2024-08-31,Preventive,Caterpillar Preventive maintenance,4561.78,3.53,TECH1077,"[""Transmission"", ""Axle""]",2025-07-29,10,18.51,2025-08-28 16:57:14
+148,CAT00044,2024-10-17,Corrective,Caterpillar Corrective maintenance,2580.53,3.4,TECH7188,"[""Voltage Regulator"", ""Starter""]",2025-02-12,9,55.26,2025-08-28 16:57:14
+149,CAT00044,2023-10-05,Emergency,Caterpillar Emergency maintenance,3143.67,12.87,TECH5220,"[""Alternator""]",2024-10-01,8,8.74,2025-08-28 16:57:14
+150,CAT00044,2024-10-18,Corrective,Caterpillar Corrective maintenance,4395.8,4.14,TECH8361,"[""Starter"", ""Voltage Regulator""]",2025-05-06,10,39.55,2025-08-28 16:57:14
+151,CAT00045,2024-01-13,Preventive,Caterpillar Preventive maintenance,2568.59,11.84,TECH6214,"[""Fuel Injector"", ""Voltage Regulator"", ""Alternator""]",2024-06-08,10,67.55,2025-08-28 16:57:14
+152,CAT00045,2017-11-06,Preventive,Caterpillar Preventive maintenance,4776.45,4.61,TECH1927,"[""Fuel Injector""]",2018-06-27,9,24.88,2025-08-28 16:57:14
+153,CAT00046,2015-08-03,Preventive,Caterpillar Preventive maintenance,5256.61,9.42,TECH3007,"[""Blade"", ""Final Drive""]",2016-03-01,8,62.4,2025-08-28 16:57:14
+154,CAT00046,2022-07-24,Preventive,Caterpillar Preventive maintenance,3224.8,3.56,TECH9303,"[""Ripper""]",2023-01-01,8,43.57,2025-08-28 16:57:14
+155,CAT00046,2018-06-28,Preventive,Caterpillar Preventive maintenance,4155.53,7.57,TECH2157,"[""Blade"", ""Ripper""]",2019-01-19,9,13.45,2025-08-28 16:57:14
+156,CAT00046,2021-04-16,Preventive,Caterpillar Preventive maintenance,1463.64,3.83,TECH2353,"[""Ripper"", ""Final Drive""]",2021-09-28,9,68.7,2025-08-28 16:57:14
+157,CAT00046,2022-10-26,Preventive,Caterpillar Preventive maintenance,4474.78,6.48,TECH8902,"[""Radiator""]",2023-09-11,8,67.77,2025-08-28 16:57:14
+158,CAT00047,2022-08-06,Preventive,Caterpillar Preventive maintenance,3911.75,12.42,TECH3198,"[""Brakes"", ""Suspension"", ""Dump Body""]",2023-06-09,9,10.03,2025-08-28 16:57:14
+159,CAT00047,2023-02-10,Preventive,Caterpillar Preventive maintenance,2449.86,11.49,TECH2010,"[""Suspension"", ""Dump Body""]",2023-06-16,8,70.75,2025-08-28 16:57:14
+160,CAT00047,2024-09-16,Corrective,Caterpillar Corrective maintenance,3548.97,7.56,TECH2272,"[""Suspension"", ""Differential"", ""Dump Body""]",2025-02-18,9,68.52,2025-08-28 16:57:14
+161,CAT00047,2023-08-08,Preventive,Caterpillar Preventive maintenance,824.69,13.77,TECH7293,"[""Differential"", ""Suspension"", ""Dump Body""]",2024-03-22,10,58.95,2025-08-28 16:57:14
+162,CAT00048,2023-07-15,Preventive,Caterpillar Preventive maintenance,3319.0,8.9,TECH8869,"[""Circle"", ""Moldboard""]",2024-06-15,9,37.18,2025-08-28 16:57:14
+163,CAT00048,2022-08-17,Preventive,Caterpillar Preventive maintenance,4436.77,7.36,TECH8689,"[""Scarifier"", ""Circle"", ""Blade""]",2022-12-23,10,21.33,2025-08-28 16:57:14
+164,CAT00048,2024-05-10,Corrective,Caterpillar Corrective maintenance,1641.47,12.09,TECH5540,"[""Blade"", ""Moldboard"", ""Circle""]",2024-11-16,8,21.69,2025-08-28 16:57:14
+165,CAT00048,2023-03-05,Preventive,Caterpillar Preventive maintenance,3992.86,7.63,TECH1995,"[""Moldboard"", ""Circle""]",2023-09-02,8,64.51,2025-08-28 16:57:14
+166,CAT00048,2022-12-09,Preventive,Caterpillar Preventive maintenance,5233.49,7.69,TECH5832,"[""Blade""]",2023-06-23,10,70.25,2025-08-28 16:57:14
+167,CAT00049,2022-06-19,Preventive,Caterpillar Preventive maintenance,3606.83,2.61,TECH3507,"[""Pallet Forks""]",2022-10-31,10,28.46,2025-08-28 16:57:14
+168,CAT00050,2021-02-06,Corrective,Caterpillar Corrective maintenance,3023.97,5.71,TECH4651,"[""Ripper""]",2021-07-13,9,60.4,2025-08-28 16:57:14
+169,CAT00050,2024-03-08,Preventive,Caterpillar Preventive maintenance,4475.07,13.21,TECH8110,"[""Final Drive""]",2025-02-23,10,66.39,2025-08-28 16:57:14
+170,CAT00050,2021-08-22,Preventive,Caterpillar Preventive maintenance,5760.42,9.11,TECH8513,"[""Ripper"", ""Blade"", ""Final Drive""]",2022-08-12,9,65.47,2025-08-28 16:57:14
+171,CAT00050,2022-10-20,Preventive,Caterpillar Preventive maintenance,4029.83,3.37,TECH9115,"[""Radiator"", ""Blade""]",2023-06-07,9,59.17,2025-08-28 16:57:14
+172,CAT00050,2024-08-18,Preventive,Caterpillar Preventive maintenance,1041.88,2.37,TECH3562,"[""Final Drive"", ""Ripper"", ""Blade""]",2025-08-08,10,31.04,2025-08-28 16:57:14
+173,CAT00051,2019-01-16,Corrective,Caterpillar Corrective maintenance,4707.75,11.58,TECH8279,"[""Alternator"", ""Fuel Injector""]",2019-05-27,9,35.84,2025-08-28 16:57:14
+174,CAT00051,2022-08-24,Preventive,Caterpillar Preventive maintenance,2054.63,11.8,TECH7886,"[""Starter""]",2023-01-01,10,37.13,2025-08-28 16:57:14
+175,CAT00051,2024-07-06,Emergency,Caterpillar Emergency maintenance,4431.06,15.84,TECH4107,"[""Voltage Regulator""]",2025-03-19,9,53.13,2025-08-28 16:57:14
+176,CAT00051,2022-07-27,Preventive,Caterpillar Preventive maintenance,4980.01,10.73,TECH4120,"[""Starter""]",2023-05-11,8,61.32,2025-08-28 16:57:14
+177,CAT00051,2021-03-25,Preventive,Caterpillar Preventive maintenance,1266.68,3.16,TECH6728,"[""Voltage Regulator"", ""Starter""]",2022-02-18,8,31.83,2025-08-28 16:57:14
+178,CAT00052,2023-02-06,Preventive,Caterpillar Preventive maintenance,2289.76,7.5,TECH8266,"[""Blade"", ""Scarifier""]",2024-01-15,8,65.94,2025-08-28 16:57:14
+179,CAT00052,2020-02-18,Preventive,Caterpillar Preventive maintenance,4984.72,14.98,TECH9326,"[""Circle""]",2020-12-30,9,67.72,2025-08-28 16:57:14
+180,CAT00052,2023-01-29,Corrective,Caterpillar Corrective maintenance,5117.69,14.97,TECH7619,"[""Moldboard"", ""Blade"", ""Scarifier""]",2023-06-11,9,44.28,2025-08-28 16:57:14
+181,CAT00053,2024-07-21,Preventive,Caterpillar Preventive maintenance,3195.98,13.43,TECH8770,"[""Voltage Regulator"", ""Fuel Injector"", ""Alternator""]",2025-07-14,8,29.15,2025-08-28 16:57:14
+182,CAT00053,2022-08-07,Preventive,Caterpillar Preventive maintenance,4162.92,15.51,TECH7467,"[""Voltage Regulator"", ""Alternator""]",2023-07-10,10,31.55,2025-08-28 16:57:14
+183,CAT00053,2022-06-23,Preventive,Caterpillar Preventive maintenance,2182.72,7.92,TECH6911,"[""Starter""]",2023-04-06,9,35.3,2025-08-28 16:57:14
+184,CAT00054,2024-07-04,Preventive,Caterpillar Preventive maintenance,1452.13,7.29,TECH9032,"[""Pallet Forks"", ""Snow Blower""]",2025-03-09,8,58.33,2025-08-28 16:57:14
+185,CAT00054,2019-11-16,Corrective,Caterpillar Corrective maintenance,1185.81,6.65,TECH4773,"[""Snow Blower""]",2020-04-29,10,64.71,2025-08-28 16:57:14
+186,CAT00054,2020-10-19,Corrective,Caterpillar Corrective maintenance,4707.44,2.91,TECH2025,"[""Snow Blower"", ""Pallet Forks""]",2021-06-09,9,57.63,2025-08-28 16:57:14
+187,CAT00055,2024-11-30,Corrective,Caterpillar Corrective maintenance,822.55,9.21,TECH6538,"[""Sprocket"", ""Track Assembly"", ""Hydraulic Pump""]",2025-07-17,10,25.42,2025-08-28 16:57:14
+188,CAT00056,2025-02-02,Preventive,Caterpillar Preventive maintenance,919.86,11.09,TECH5847,"[""Ripper"", ""Blade"", ""Final Drive""]",2025-10-08,9,37.93,2025-08-28 16:57:14
+189,CAT00056,2020-02-05,Preventive,Caterpillar Preventive maintenance,4559.48,10.61,TECH9944,"[""Blade"", ""Final Drive"", ""Ripper""]",2020-11-24,8,14.76,2025-08-28 16:57:14
+190,CAT00056,2020-12-03,Preventive,Caterpillar Preventive maintenance,2237.37,7.7,TECH1140,"[""Ripper"", ""Final Drive"", ""Blade""]",2021-07-22,10,16.26,2025-08-28 16:57:14
+191,CAT00056,2021-11-20,Preventive,Caterpillar Preventive maintenance,1431.88,4.64,TECH8475,"[""Blade""]",2022-03-12,8,41.22,2025-08-28 16:57:14
+192,CAT00056,2023-05-26,Corrective,Caterpillar Corrective maintenance,1201.28,9.52,TECH4662,"[""Radiator"", ""Blade"", ""Ripper""]",2024-04-30,9,44.23,2025-08-28 16:57:14
+193,CAT00057,2023-05-21,Preventive,Caterpillar Preventive maintenance,5396.78,7.46,TECH3097,"[""Scarifier"", ""Blade"", ""Moldboard""]",2024-05-16,10,63.78,2025-08-28 16:57:14
+194,CAT00058,2024-05-29,Corrective,Caterpillar Corrective maintenance,5017.14,12.6,TECH2654,"[""Transmission""]",2024-10-20,10,43.95,2025-08-28 16:57:14
+195,CAT00058,2025-06-21,Preventive,Caterpillar Preventive maintenance,2958.72,10.5,TECH6955,"[""Transmission"", ""Lift Arms"", ""Bucket""]",2025-09-23,9,25.65,2025-08-28 16:57:14
+196,CAT00058,2021-01-16,Preventive,Caterpillar Preventive maintenance,3028.04,11.53,TECH3041,"[""Transmission"", ""Lift Arms""]",2021-04-16,9,39.17,2025-08-28 16:57:14
+197,CAT00059,2023-01-17,Preventive,Caterpillar Preventive maintenance,4929.51,3.17,TECH1644,"[""Compressor Pump"", ""Pressure Switch"", ""Tank""]",2023-09-02,8,63.79,2025-08-28 16:57:14
+198,CAT00059,2025-02-15,Preventive,Caterpillar Preventive maintenance,2165.12,12.27,TECH3459,"[""Tank"", ""Compressor Pump"", ""Pressure Switch""]",2025-08-14,8,33.12,2025-08-28 16:57:14
+199,CAT00059,2023-01-12,Preventive,Caterpillar Preventive maintenance,1442.9,8.01,TECH5480,"[""Air Filter"", ""Tank""]",2023-04-13,8,26.83,2025-08-28 16:57:14
+200,CAT00059,2022-04-20,Preventive,Caterpillar Preventive maintenance,1401.9,14.3,TECH2301,"[""Pressure Switch"", ""Air Filter"", ""Tank""]",2022-12-22,9,66.77,2025-08-28 16:57:14
+201,CAT00060,2024-08-30,Preventive,Caterpillar Preventive maintenance,3358.39,12.11,TECH5339,"[""Radiator"", ""Final Drive"", ""Ripper""]",2025-06-28,8,18.87,2025-08-28 16:57:14
+202,CAT00060,2024-12-17,Preventive,Caterpillar Preventive maintenance,3424.95,12.08,TECH2830,"[""Radiator"", ""Blade"", ""Ripper""]",2025-10-02,10,64.94,2025-08-28 16:57:14
+203,CAT00060,2025-08-14,Preventive,Caterpillar Preventive maintenance,3492.75,3.97,TECH3457,"[""Radiator"", ""Ripper""]",2026-08-09,9,55.29,2025-08-28 16:57:14
+204,CAT00061,2025-07-19,Preventive,Caterpillar Preventive maintenance,2360.08,4.34,TECH3779,"[""Suspension"", ""Differential""]",2025-11-03,8,35.65,2025-08-28 16:57:14
+205,CAT00062,2018-01-21,Preventive,Caterpillar Preventive maintenance,2270.21,14.02,TECH8962,"[""Fuel Injector"", ""Alternator""]",2018-08-04,9,48.15,2025-08-28 16:57:14
+206,CAT00062,2024-10-09,Corrective,Caterpillar Corrective maintenance,5779.03,13.52,TECH3072,"[""Voltage Regulator""]",2025-06-30,10,20.0,2025-08-28 16:57:14
+207,CAT00062,2018-06-29,Preventive,Caterpillar Preventive maintenance,2194.83,5.4,TECH7697,"[""Fuel Injector""]",2019-04-24,10,45.69,2025-08-28 16:57:14
+208,CAT00062,2019-12-10,Preventive,Caterpillar Preventive maintenance,4166.83,12.99,TECH6063,"[""Starter""]",2020-06-07,8,59.07,2025-08-28 16:57:14
+209,CAT00062,2021-01-27,Preventive,Caterpillar Preventive maintenance,1956.39,11.34,TECH6052,"[""Voltage Regulator""]",2021-04-27,10,55.54,2025-08-28 16:57:14
+210,CAT00063,2024-12-31,Corrective,Caterpillar Corrective maintenance,2627.64,8.97,TECH6320,"[""Lift Arms"", ""Transmission""]",2025-06-20,8,69.64,2025-08-28 16:57:14
+211,CAT00063,2022-03-25,Preventive,Caterpillar Preventive maintenance,4591.83,14.37,TECH3582,"[""Lift Arms""]",2022-06-27,9,20.36,2025-08-28 16:57:14
+212,CAT00063,2024-12-24,Corrective,Caterpillar Corrective maintenance,1896.08,10.38,TECH1632,"[""Transmission"", ""Lift Arms"", ""Bucket""]",2025-04-02,8,55.06,2025-08-28 16:57:14
+213,CAT00063,2022-07-14,Preventive,Caterpillar Preventive maintenance,2041.61,14.85,TECH1013,"[""Bucket"", ""Transmission"", ""Lift Arms""]",2022-12-05,9,25.08,2025-08-28 16:57:14
+214,CAT00064,2022-11-12,Preventive,Caterpillar Preventive maintenance,1722.31,5.08,TECH8361,"[""Scarifier""]",2023-07-29,10,69.95,2025-08-28 16:57:14
+215,CAT00064,2019-10-23,Corrective,Caterpillar Corrective maintenance,5800.21,4.06,TECH1815,"[""Moldboard"", ""Blade""]",2020-10-22,9,13.32,2025-08-28 16:57:14
+216,CAT00064,2024-09-28,Preventive,Caterpillar Preventive maintenance,5750.0,3.81,TECH8715,"[""Blade"", ""Scarifier""]",2025-03-24,9,55.96,2025-08-28 16:57:14
+217,CAT00064,2020-07-02,Preventive,Caterpillar Preventive maintenance,3201.15,9.27,TECH6191,"[""Blade""]",2020-12-15,10,58.72,2025-08-28 16:57:14
+218,CAT00065,2024-06-08,Preventive,Caterpillar Preventive maintenance,5662.3,14.5,TECH5707,"[""Differential""]",2025-03-27,10,26.42,2025-08-28 16:57:14
+219,CAT00066,2021-12-22,Preventive,Caterpillar Preventive maintenance,3251.38,12.8,TECH3975,"[""Air Filter"", ""Compressor Pump""]",2022-04-25,9,49.71,2025-08-28 16:57:14
+220,CAT00066,2017-12-10,Corrective,Caterpillar Corrective maintenance,1786.96,12.58,TECH1760,"[""Compressor Pump""]",2018-09-12,10,32.82,2025-08-28 16:57:14
+221,CAT00066,2025-05-19,Corrective,Caterpillar Corrective maintenance,3760.36,6.31,TECH3067,"[""Tank"", ""Air Filter"", ""Pressure Switch""]",2025-09-05,9,39.19,2025-08-28 16:57:14
+222,CAT00066,2023-09-26,Corrective,Caterpillar Corrective maintenance,2109.94,11.89,TECH3300,"[""Air Filter""]",2024-03-17,9,48.99,2025-08-28 16:57:14
+223,CAT00066,2016-07-16,Preventive,Caterpillar Preventive maintenance,3042.84,11.1,TECH4854,"[""Air Filter"", ""Tank""]",2017-04-21,10,54.32,2025-08-28 16:57:14
+224,CAT00067,2024-02-20,Preventive,Caterpillar Preventive maintenance,3252.58,3.66,TECH7910,"[""Transmission"", ""Bucket""]",2024-12-30,10,67.08,2025-08-28 16:57:14
+225,CAT00067,2023-05-06,Corrective,Caterpillar Corrective maintenance,2863.8,4.35,TECH8205,"[""Bucket""]",2023-08-22,9,37.83,2025-08-28 16:57:14
+226,CAT00068,2021-01-13,Preventive,Caterpillar Preventive maintenance,1331.27,7.84,TECH2959,"[""Voltage Regulator""]",2021-11-13,9,55.28,2025-08-28 16:57:14
+227,CAT00068,2024-02-12,Preventive,Caterpillar Preventive maintenance,1404.16,15.09,TECH5362,"[""Alternator"", ""Voltage Regulator"", ""Fuel Injector""]",2024-09-14,10,11.57,2025-08-28 16:57:14
+228,CAT00068,2023-11-06,Corrective,Caterpillar Corrective maintenance,2646.55,4.87,TECH6650,"[""Voltage Regulator"", ""Starter""]",2024-09-02,8,45.19,2025-08-28 16:57:14
+229,CAT00068,2024-03-28,Preventive,Caterpillar Preventive maintenance,1356.11,11.23,TECH6256,"[""Alternator""]",2025-03-18,9,58.92,2025-08-28 16:57:14
+230,CAT00069,2019-07-09,Corrective,Caterpillar Corrective maintenance,2033.02,9.61,TECH6292,"[""Grapple""]",2019-11-04,8,48.14,2025-08-28 16:57:14
+231,CAT00069,2021-04-03,Preventive,Caterpillar Preventive maintenance,2631.57,10.14,TECH3386,"[""Grapple"", ""Auger""]",2021-12-13,8,42.98,2025-08-28 16:57:14
+232,CAT00069,2018-08-17,Preventive,Caterpillar Preventive maintenance,2522.5,9.52,TECH1046,"[""Auger"", ""Snow Blower""]",2019-05-05,9,69.52,2025-08-28 16:57:14
+233,CAT00069,2022-11-03,Preventive,Caterpillar Preventive maintenance,4993.12,10.85,TECH7133,"[""Snow Blower"", ""Auger""]",2023-02-27,9,42.67,2025-08-28 16:57:14
+234,CAT00069,2020-05-03,Corrective,Caterpillar Corrective maintenance,4233.81,12.47,TECH1958,"[""Grapple"", ""Pallet Forks""]",2021-03-16,9,60.92,2025-08-28 16:57:14
+235,CAT00070,2022-05-01,Preventive,Caterpillar Preventive maintenance,4549.57,11.54,TECH5633,"[""Track Assembly"", ""Sprocket""]",2023-04-08,8,71.94,2025-08-28 16:57:14
+236,CAT00070,2025-01-18,Preventive,Caterpillar Preventive maintenance,2542.94,8.47,TECH1453,"[""Boom Cylinder""]",2025-06-20,10,22.79,2025-08-28 16:57:14
+237,CAT00070,2024-10-10,Corrective,Caterpillar Corrective maintenance,3044.13,2.92,TECH7998,"[""Sprocket"", ""Track Assembly""]",2025-04-09,10,38.93,2025-08-28 16:57:14
+238,CAT00071,2016-12-09,Preventive,Caterpillar Preventive maintenance,4493.83,11.62,TECH5624,"[""Suspension"", ""Differential""]",2017-08-11,9,31.36,2025-08-28 16:57:14
+239,CAT00071,2020-05-17,Corrective,Caterpillar Corrective maintenance,1296.96,2.67,TECH3019,"[""Brakes"", ""Differential""]",2020-09-14,10,55.82,2025-08-28 16:57:14
+240,CAT00072,2023-05-01,Preventive,Caterpillar Preventive maintenance,3518.23,11.02,TECH3192,"[""Axle"", ""Transmission"", ""Lift Arms""]",2024-02-23,10,46.87,2025-08-28 16:57:14
+241,CAT00072,2025-01-23,Preventive,Caterpillar Preventive maintenance,2338.96,9.57,TECH2514,"[""Lift Arms""]",2025-08-08,10,38.5,2025-08-28 16:57:14
+242,CAT00072,2022-11-28,Corrective,Caterpillar Corrective maintenance,5263.82,6.39,TECH1422,"[""Axle"", ""Lift Arms"", ""Bucket""]",2023-09-17,9,41.57,2025-08-28 16:57:14
+243,CAT00073,2024-05-13,Corrective,Caterpillar Corrective maintenance,3319.69,7.68,TECH3315,"[""Boom Cylinder"", ""Hydraulic Pump"", ""Sprocket""]",2025-04-14,8,14.89,2025-08-28 16:57:14
+244,CAT00073,2021-07-07,Corrective,Caterpillar Corrective maintenance,1191.41,11.67,TECH5770,"[""Sprocket"", ""Boom Cylinder"", ""Track Assembly""]",2022-01-07,8,29.74,2025-08-28 16:57:14
+245,CAT00073,2019-09-07,Corrective,Caterpillar Corrective maintenance,3282.81,9.85,TECH4648,"[""Sprocket""]",2019-12-27,9,15.03,2025-08-28 16:57:14
+246,CAT00074,2021-01-27,Preventive,Caterpillar Preventive maintenance,1835.34,2.21,TECH7904,"[""Dump Body"", ""Brakes""]",2021-07-01,10,53.67,2025-08-28 16:57:14
+247,CAT00074,2020-12-20,Preventive,Caterpillar Preventive maintenance,5168.75,4.1,TECH9192,"[""Suspension""]",2021-03-25,9,44.51,2025-08-28 16:57:14
+248,CAT00074,2022-09-30,Preventive,Caterpillar Preventive maintenance,4299.68,9.11,TECH6379,"[""Differential"", ""Brakes""]",2023-06-14,9,44.56,2025-08-28 16:57:14
+249,CAT00074,2025-05-27,Preventive,Caterpillar Preventive maintenance,5545.86,4.75,TECH3646,"[""Dump Body""]",2026-03-07,10,10.22,2025-08-28 16:57:14
+250,CAT00074,2016-08-07,Preventive,Caterpillar Preventive maintenance,2899.98,7.59,TECH6558,"[""Suspension"", ""Differential"", ""Dump Body""]",2017-03-26,8,37.07,2025-08-28 16:57:14
+251,CAT00075,2020-06-22,Preventive,Caterpillar Preventive maintenance,4459.15,3.68,TECH5299,"[""Engine"", ""Water System"", ""Vibratory System""]",2020-10-30,9,11.29,2025-08-28 16:57:14
+252,CAT00075,2025-02-21,Corrective,Caterpillar Corrective maintenance,2059.54,6.79,TECH8440,"[""Vibratory System""]",2025-11-30,9,25.47,2025-08-28 16:57:14
+253,CAT00075,2021-08-23,Preventive,Caterpillar Preventive maintenance,3503.02,3.98,TECH4958,"[""Water System"", ""Drum"", ""Vibratory System""]",2022-06-28,9,41.28,2025-08-28 16:57:14
+254,CAT00075,2021-07-22,Preventive,Caterpillar Preventive maintenance,3998.34,2.88,TECH8693,"[""Engine""]",2022-07-11,8,46.79,2025-08-28 16:57:14
+255,CAT00076,2019-12-18,Preventive,Caterpillar Preventive maintenance,3812.25,4.81,TECH4066,"[""Drum"", ""Engine"", ""Water System""]",2020-10-01,8,51.96,2025-08-28 16:57:14
+256,CAT00076,2024-08-03,Preventive,Caterpillar Preventive maintenance,1426.97,11.16,TECH8280,"[""Water System""]",2025-07-19,10,30.49,2025-08-28 16:57:14
+257,CAT00077,2022-08-05,Preventive,Caterpillar Preventive maintenance,3921.5,4.92,TECH7868,"[""Scarifier"", ""Blade"", ""Circle""]",2022-11-30,8,16.33,2025-08-28 16:57:14
+258,CAT00077,2015-09-21,Preventive,Caterpillar Preventive maintenance,4573.24,9.45,TECH6545,"[""Moldboard"", ""Scarifier""]",2016-05-05,8,45.62,2025-08-28 16:57:14
+259,CAT00077,2018-05-09,Corrective,Caterpillar Corrective maintenance,4290.34,4.06,TECH1297,"[""Blade""]",2018-10-22,10,64.89,2025-08-28 16:57:14
+260,CAT00078,2022-09-30,Preventive,Caterpillar Preventive maintenance,4526.86,15.62,TECH1427,"[""Compressor Pump""]",2023-06-24,8,30.73,2025-08-28 16:57:14
+261,CAT00078,2016-09-12,Preventive,Caterpillar Preventive maintenance,4074.69,13.4,TECH8157,"[""Pressure Switch"", ""Air Filter""]",2017-03-06,9,46.34,2025-08-28 16:57:14
+262,CAT00078,2020-12-07,Preventive,Caterpillar Preventive maintenance,2258.61,9.16,TECH4850,"[""Pressure Switch"", ""Air Filter""]",2021-07-01,9,12.58,2025-08-28 16:57:14
+263,CAT00078,2015-12-25,Preventive,Caterpillar Preventive maintenance,1697.51,7.35,TECH6417,"[""Tank""]",2016-05-17,10,24.67,2025-08-28 16:57:14
+264,CAT00079,2022-12-31,Preventive,Caterpillar Preventive maintenance,4524.78,5.83,TECH5778,"[""Alternator"", ""Starter""]",2023-07-26,10,44.0,2025-08-28 16:57:14
+265,CAT00079,2019-09-01,Preventive,Caterpillar Preventive maintenance,2050.27,8.46,TECH1558,"[""Fuel Injector""]",2020-01-06,8,32.5,2025-08-28 16:57:14
+266,CAT00080,2021-05-16,Preventive,Caterpillar Preventive maintenance,5417.04,10.1,TECH9307,"[""Radiator"", ""Ripper""]",2021-10-04,10,63.96,2025-08-28 16:57:14
+267,CAT00080,2022-12-11,Preventive,Caterpillar Preventive maintenance,4814.33,2.15,TECH1352,"[""Radiator"", ""Final Drive"", ""Ripper""]",2023-03-21,8,26.23,2025-08-28 16:57:14
+268,CAT00080,2022-08-04,Preventive,Caterpillar Preventive maintenance,2451.13,11.05,TECH9533,"[""Radiator"", ""Ripper""]",2023-06-26,8,20.75,2025-08-28 16:57:14
+269,CAT00081,2024-09-14,Preventive,Caterpillar Preventive maintenance,2712.26,6.39,TECH8603,"[""Compressor Pump"", ""Air Filter""]",2025-08-21,10,55.08,2025-08-28 16:57:14
+270,CAT00081,2020-11-01,Preventive,Caterpillar Preventive maintenance,2399.77,10.44,TECH7141,"[""Pressure Switch"", ""Compressor Pump""]",2021-03-25,8,66.37,2025-08-28 16:57:14
+271,CAT00082,2022-12-24,Corrective,Caterpillar Corrective maintenance,1009.82,13.07,TECH1971,"[""Lift Arms""]",2023-09-21,9,67.22,2025-08-28 16:57:14
+272,CAT00082,2023-09-12,Corrective,Caterpillar Corrective maintenance,4289.28,2.67,TECH8199,"[""Bucket"", ""Lift Arms"", ""Axle""]",2024-02-09,9,19.34,2025-08-28 16:57:14
+273,CAT00082,2022-01-14,Preventive,Caterpillar Preventive maintenance,3500.87,8.55,TECH5208,"[""Bucket""]",2022-06-28,9,60.59,2025-08-28 16:57:14
+274,CAT00082,2023-10-08,Corrective,Caterpillar Corrective maintenance,1471.25,3.18,TECH7868,"[""Transmission"", ""Lift Arms""]",2024-06-06,8,10.66,2025-08-28 16:57:14
+275,CAT00083,2022-06-30,Preventive,Caterpillar Preventive maintenance,1074.11,11.04,TECH7987,"[""Boom Cylinder""]",2023-05-24,10,67.02,2025-08-28 16:57:14
+276,CAT00083,2020-11-12,Corrective,Caterpillar Corrective maintenance,3029.46,2.38,TECH9382,"[""Hydraulic Pump"", ""Sprocket""]",2021-08-19,9,70.03,2025-08-28 16:57:14
+277,CAT00083,2021-05-06,Preventive,Caterpillar Preventive maintenance,2760.56,15.58,TECH2783,"[""Track Assembly"", ""Boom Cylinder""]",2022-02-10,8,27.64,2025-08-28 16:57:14
+278,CAT00083,2019-07-17,Preventive,Caterpillar Preventive maintenance,3425.58,2.53,TECH6381,"[""Sprocket"", ""Hydraulic Pump"", ""Boom Cylinder""]",2020-03-03,8,16.52,2025-08-28 16:57:14
+279,CAT00084,2022-06-29,Preventive,Caterpillar Preventive maintenance,4943.54,14.63,TECH1509,"[""Scarifier""]",2022-11-21,8,33.05,2025-08-28 16:57:14
+280,CAT00084,2024-03-28,Preventive,Caterpillar Preventive maintenance,1734.76,12.04,TECH1684,"[""Circle"", ""Blade"", ""Scarifier""]",2024-07-09,8,71.83,2025-08-28 16:57:14
+281,CAT00085,2022-06-28,Preventive,Caterpillar Preventive maintenance,1857.9,7.79,TECH9195,"[""Alternator"", ""Starter""]",2022-10-15,10,67.92,2025-08-28 16:57:14
+282,CAT00085,2023-09-11,Corrective,Caterpillar Corrective maintenance,5770.74,6.44,TECH2968,"[""Alternator""]",2024-05-13,9,60.23,2025-08-28 16:57:14
+283,CAT00086,2018-06-14,Preventive,Caterpillar Preventive maintenance,1436.18,12.11,TECH1094,"[""Auger""]",2019-02-28,8,28.51,2025-08-28 16:57:14
+284,CAT00086,2022-05-18,Corrective,Caterpillar Corrective maintenance,1433.09,11.26,TECH9488,"[""Snow Blower""]",2023-01-25,8,26.22,2025-08-28 16:57:14
+285,CAT00086,2016-11-07,Preventive,Caterpillar Preventive maintenance,5703.22,9.19,TECH8652,"[""Auger""]",2017-06-16,10,47.08,2025-08-28 16:57:14
+286,CAT00086,2020-11-26,Corrective,Caterpillar Corrective maintenance,2614.91,14.05,TECH5480,"[""Pallet Forks""]",2021-07-19,10,51.99,2025-08-28 16:57:14
+287,CAT00086,2023-04-03,Corrective,Caterpillar Corrective maintenance,4222.79,3.63,TECH9075,"[""Auger""]",2023-09-12,9,39.83,2025-08-28 16:57:14
+288,CAT00087,2018-06-04,Preventive,Caterpillar Preventive maintenance,1207.69,8.43,TECH3846,"[""Track Assembly"", ""Hydraulic Pump""]",2018-11-05,10,29.87,2025-08-28 16:57:14
+289,CAT00087,2020-08-01,Preventive,Caterpillar Preventive maintenance,4227.07,3.0,TECH6594,"[""Boom Cylinder"", ""Track Assembly""]",2021-01-08,9,14.02,2025-08-28 16:57:14
+290,CAT00087,2018-08-16,Emergency,Caterpillar Emergency maintenance,5091.61,9.45,TECH6128,"[""Hydraulic Pump"", ""Sprocket""]",2019-07-09,8,24.66,2025-08-28 16:57:14
+291,CAT00087,2020-03-25,Corrective,Caterpillar Corrective maintenance,4587.84,4.75,TECH4211,"[""Boom Cylinder"", ""Track Assembly"", ""Sprocket""]",2021-02-06,8,56.87,2025-08-28 16:57:14
+292,CAT00088,2024-05-01,Corrective,Caterpillar Corrective maintenance,1767.26,8.84,TECH9128,"[""PTO""]",2025-01-20,8,44.96,2025-08-28 16:57:14
+293,CAT00088,2024-12-14,Preventive,Caterpillar Preventive maintenance,5279.89,8.22,TECH2886,"[""PTO"", ""Loader Bucket"", ""Stabilizer""]",2025-11-20,8,54.72,2025-08-28 16:57:14
+294,CAT00088,2025-04-23,Preventive,Caterpillar Preventive maintenance,5349.45,10.46,TECH6282,"[""PTO""]",2025-11-13,10,63.74,2025-08-28 16:57:14
+295,CAT00089,2023-03-09,Corrective,Caterpillar Corrective maintenance,4245.23,13.67,TECH3631,"[""Tank"", ""Pressure Switch""]",2023-11-05,10,22.82,2025-08-28 16:57:14
+296,CAT00089,2022-05-24,Corrective,Caterpillar Corrective maintenance,1037.78,4.62,TECH2430,"[""Air Filter"", ""Pressure Switch"", ""Compressor Pump""]",2022-09-18,10,38.39,2025-08-28 16:57:14
+297,CAT00089,2021-02-14,Corrective,Caterpillar Corrective maintenance,4480.49,2.22,TECH3899,"[""Pressure Switch"", ""Compressor Pump"", ""Air Filter""]",2021-12-23,10,24.6,2025-08-28 16:57:14
+298,CAT00089,2021-04-29,Preventive,Caterpillar Preventive maintenance,5656.23,4.65,TECH1973,"[""Tank"", ""Air Filter"", ""Pressure Switch""]",2022-02-13,9,52.15,2025-08-28 16:57:14
+299,CAT00089,2023-02-18,Preventive,Caterpillar Preventive maintenance,3354.08,6.07,TECH9139,"[""Air Filter""]",2023-09-03,9,14.98,2025-08-28 16:57:14
+300,CAT00090,2022-06-26,Preventive,Caterpillar Preventive maintenance,3506.45,14.25,TECH7049,"[""Alternator"", ""Voltage Regulator""]",2022-10-16,10,18.39,2025-08-28 16:57:14
+301,CAT00090,2020-12-15,Preventive,Caterpillar Preventive maintenance,3000.86,9.41,TECH8095,"[""Fuel Injector""]",2021-12-02,8,57.91,2025-08-28 16:57:14
+302,CAT00091,2020-07-28,Preventive,Caterpillar Preventive maintenance,3942.58,15.34,TECH1452,"[""Brakes"", ""Differential"", ""Suspension""]",2021-04-19,10,37.64,2025-08-28 16:57:14
+303,CAT00091,2024-11-08,Preventive,Caterpillar Preventive maintenance,1728.46,10.26,TECH6578,"[""Dump Body"", ""Suspension""]",2025-07-19,9,25.11,2025-08-28 16:57:14
+304,CAT00092,2019-07-21,Preventive,Caterpillar Preventive maintenance,5078.26,11.89,TECH2395,"[""Differential""]",2020-07-10,9,34.85,2025-08-28 16:57:14
+305,CAT00092,2019-10-07,Preventive,Caterpillar Preventive maintenance,1216.28,7.72,TECH8449,"[""Suspension"", ""Dump Body""]",2020-07-29,8,36.05,2025-08-28 16:57:14
+306,CAT00093,2024-10-06,Preventive,Caterpillar Preventive maintenance,5379.45,15.25,TECH5741,"[""Radiator"", ""Ripper""]",2025-08-03,8,18.35,2025-08-28 16:57:14
+307,CAT00093,2022-12-29,Preventive,Caterpillar Preventive maintenance,5228.75,8.4,TECH2373,"[""Final Drive""]",2023-11-03,10,62.64,2025-08-28 16:57:14
+308,CAT00093,2022-03-20,Preventive,Caterpillar Preventive maintenance,5722.12,5.88,TECH6671,"[""Blade"", ""Radiator"", ""Final Drive""]",2022-08-31,9,59.33,2025-08-28 16:57:14
+309,CAT00093,2024-09-02,Preventive,Caterpillar Preventive maintenance,4954.81,8.04,TECH1167,"[""Final Drive""]",2024-12-23,9,12.09,2025-08-28 16:57:14
+310,CAT00093,2021-03-28,Corrective,Caterpillar Corrective maintenance,5449.26,12.29,TECH8256,"[""Radiator""]",2022-02-14,9,17.29,2025-08-28 16:57:14
+311,CAT00094,2025-07-07,Preventive,Caterpillar Preventive maintenance,2932.19,11.74,TECH9706,"[""Water System"", ""Vibratory System""]",2026-05-27,8,47.05,2025-08-28 16:57:14
+312,CAT00094,2017-06-24,Preventive,Caterpillar Preventive maintenance,3083.98,6.41,TECH7824,"[""Drum""]",2018-02-02,10,51.32,2025-08-28 16:57:14
+313,CAT00094,2020-09-03,Preventive,Caterpillar Preventive maintenance,4109.25,2.81,TECH1116,"[""Drum"", ""Engine"", ""Vibratory System""]",2021-06-24,10,71.59,2025-08-28 16:57:14
+314,CAT00095,2021-05-28,Corrective,Caterpillar Corrective maintenance,3076.07,3.89,TECH6326,"[""Sprocket"", ""Track Assembly"", ""Hydraulic Pump""]",2021-11-09,9,13.59,2025-08-28 16:57:14
+315,CAT00096,2025-06-08,Preventive,Caterpillar Preventive maintenance,2418.63,6.04,TECH6719,"[""PTO""]",2026-04-08,10,19.39,2025-08-28 16:57:14
+316,CAT00096,2022-10-03,Preventive,Caterpillar Preventive maintenance,4643.7,9.54,TECH7519,"[""Stabilizer"", ""Backhoe Bucket""]",2023-04-28,8,37.68,2025-08-28 16:57:14
+317,CAT00096,2024-05-18,Preventive,Caterpillar Preventive maintenance,3055.05,14.11,TECH2841,"[""Loader Bucket"", ""Stabilizer""]",2024-11-06,10,37.63,2025-08-28 16:57:14
+318,CAT00097,2025-05-01,Preventive,Caterpillar Preventive maintenance,5714.46,4.73,TECH8257,"[""Vibratory System"", ""Engine"", ""Drum""]",2025-09-23,8,43.3,2025-08-28 16:57:14
+319,CAT00097,2024-11-08,Preventive,Caterpillar Preventive maintenance,5833.1,13.75,TECH9230,"[""Water System""]",2025-08-20,10,47.09,2025-08-28 16:57:14
+320,CAT00097,2019-03-30,Preventive,Caterpillar Preventive maintenance,5961.68,10.42,TECH9079,"[""Engine"", ""Vibratory System"", ""Water System""]",2019-07-20,9,70.63,2025-08-28 16:57:14
+321,CAT00097,2019-08-31,Corrective,Caterpillar Corrective maintenance,2991.43,11.1,TECH5364,"[""Engine"", ""Drum""]",2020-03-05,9,34.13,2025-08-28 16:57:14
+322,CAT00097,2022-01-23,Preventive,Caterpillar Preventive maintenance,840.47,11.59,TECH7293,"[""Drum"", ""Vibratory System""]",2022-06-30,10,62.66,2025-08-28 16:57:14
+323,CAT00098,2023-07-06,Preventive,Caterpillar Preventive maintenance,3784.25,6.1,TECH7910,"[""Circle"", ""Blade""]",2024-05-05,10,41.39,2025-08-28 16:57:14
+324,CAT00099,2021-03-29,Preventive,Caterpillar Preventive maintenance,3369.26,6.15,TECH3810,"[""Brakes""]",2021-07-26,8,18.45,2025-08-28 16:57:14
+325,CAT00099,2025-04-16,Preventive,Caterpillar Preventive maintenance,5865.78,7.26,TECH6995,"[""Differential"", ""Dump Body"", ""Suspension""]",2025-08-21,9,71.73,2025-08-28 16:57:14
+326,CAT00099,2018-01-28,Preventive,Caterpillar Preventive maintenance,5700.56,7.06,TECH2836,"[""Dump Body"", ""Brakes"", ""Differential""]",2018-08-31,9,38.38,2025-08-28 16:57:14
+327,CAT00100,2025-02-08,Corrective,Caterpillar Corrective maintenance,1519.96,7.52,TECH7782,"[""Bucket"", ""Transmission"", ""Lift Arms""]",2025-08-18,9,44.58,2025-08-28 16:57:14
+328,CAT00100,2025-07-10,Corrective,Caterpillar Corrective maintenance,4794.41,13.47,TECH4258,"[""Bucket""]",2026-01-24,10,43.0,2025-08-28 16:57:14
+329,CAT00101,2021-10-28,Corrective,Caterpillar Corrective maintenance,3615.83,6.95,TECH9996,"[""Air Filter"", ""Tank""]",2022-09-01,10,50.56,2025-08-28 16:57:14
+330,CAT00101,2022-04-26,Preventive,Caterpillar Preventive maintenance,5994.98,13.93,TECH2248,"[""Air Filter""]",2023-01-16,9,39.98,2025-08-28 16:57:14
+331,CAT00101,2024-04-15,Preventive,Caterpillar Preventive maintenance,4957.49,10.19,TECH6562,"[""Air Filter"", ""Compressor Pump"", ""Pressure Switch""]",2024-09-20,8,70.73,2025-08-28 16:57:14
+332,CAT00101,2025-08-02,Preventive,Caterpillar Preventive maintenance,4040.2,12.12,TECH1232,"[""Tank"", ""Pressure Switch"", ""Air Filter""]",2025-11-19,9,40.87,2025-08-28 16:57:14
+333,CAT00101,2025-01-14,Preventive,Caterpillar Preventive maintenance,2504.98,14.63,TECH3632,"[""Air Filter""]",2025-06-17,9,21.22,2025-08-28 16:57:14
+334,CAT00102,2025-07-30,Preventive,Caterpillar Preventive maintenance,3843.64,9.07,TECH3363,"[""Lift Arms""]",2025-12-16,8,57.93,2025-08-28 16:57:14
+335,CAT00102,2022-04-14,Corrective,Caterpillar Corrective maintenance,3204.26,11.08,TECH2707,"[""Bucket""]",2023-03-21,8,24.8,2025-08-28 16:57:14
+336,CAT00102,2022-12-06,Corrective,Caterpillar Corrective maintenance,4847.74,13.89,TECH7058,"[""Lift Arms"", ""Transmission"", ""Axle""]",2023-04-15,9,10.81,2025-08-28 16:57:14
+337,CAT00103,2024-01-17,Preventive,Caterpillar Preventive maintenance,2649.99,7.96,TECH4788,"[""Axle"", ""Lift Arms"", ""Bucket""]",2024-07-29,9,26.97,2025-08-28 16:57:14
+338,CAT00103,2020-01-26,Preventive,Caterpillar Preventive maintenance,887.75,8.74,TECH4709,"[""Lift Arms"", ""Axle"", ""Bucket""]",2020-07-20,10,66.78,2025-08-28 16:57:14
+339,CAT00103,2022-05-12,Corrective,Caterpillar Corrective maintenance,4691.65,5.02,TECH1428,"[""Axle""]",2022-09-03,10,17.2,2025-08-28 16:57:14
+340,CAT00103,2018-03-16,Preventive,Caterpillar Preventive maintenance,2247.53,7.32,TECH3636,"[""Axle""]",2018-07-28,9,44.58,2025-08-28 16:57:14
+341,CAT00104,2021-09-01,Preventive,Caterpillar Preventive maintenance,2294.66,14.82,TECH6286,"[""Tank"", ""Pressure Switch"", ""Compressor Pump""]",2022-05-22,9,14.79,2025-08-28 16:57:14
+342,CAT00104,2022-05-23,Preventive,Caterpillar Preventive maintenance,4783.87,14.72,TECH3925,"[""Pressure Switch"", ""Air Filter""]",2022-12-15,10,9.3,2025-08-28 16:57:14
+343,CAT00105,2023-02-05,Preventive,Caterpillar Preventive maintenance,3931.35,11.72,TECH3389,"[""Water System"", ""Vibratory System"", ""Engine""]",2023-08-04,8,46.63,2025-08-28 16:57:14
+344,CAT00105,2022-12-30,Corrective,Caterpillar Corrective maintenance,5129.14,13.35,TECH7230,"[""Drum"", ""Engine"", ""Water System""]",2023-06-25,9,18.28,2025-08-28 16:57:14
+345,CAT00105,2025-02-18,Preventive,Caterpillar Preventive maintenance,2724.85,15.11,TECH7575,"[""Engine"", ""Water System""]",2025-10-26,10,22.83,2025-08-28 16:57:14
+346,CAT00106,2020-10-22,Corrective,Caterpillar Corrective maintenance,4008.47,15.04,TECH9052,"[""Snow Blower""]",2021-04-24,9,25.8,2025-08-28 16:57:14
+347,CAT00106,2023-02-24,Preventive,Caterpillar Preventive maintenance,5857.09,12.64,TECH4565,"[""Auger"", ""Grapple""]",2024-02-08,10,58.44,2025-08-28 16:57:14
+348,CAT00107,2024-10-27,Preventive,Caterpillar Preventive maintenance,2288.07,12.97,TECH5250,"[""Scarifier""]",2025-05-23,10,8.31,2025-08-28 16:57:14
+349,CAT00108,2025-04-15,Preventive,Caterpillar Preventive maintenance,3734.93,7.25,TECH9889,"[""Suspension"", ""Dump Body""]",2026-04-12,9,71.17,2025-08-28 16:57:14
+350,CAT00108,2022-10-06,Preventive,Caterpillar Preventive maintenance,1236.61,13.33,TECH9885,"[""Suspension"", ""Dump Body""]",2023-08-04,10,24.05,2025-08-28 16:57:14
+351,CAT00108,2022-11-20,Preventive,Caterpillar Preventive maintenance,5159.28,15.14,TECH8380,"[""Suspension"", ""Brakes""]",2023-09-16,10,10.24,2025-08-28 16:57:14
+352,CAT00109,2024-02-17,Preventive,Caterpillar Preventive maintenance,3462.25,14.32,TECH1461,"[""Hydraulic Pump"", ""Boom Cylinder""]",2024-12-27,10,12.83,2025-08-28 16:57:14
+353,CAT00110,2019-09-22,Preventive,Caterpillar Preventive maintenance,4665.51,9.91,TECH8653,"[""Suspension""]",2020-05-12,9,50.91,2025-08-28 16:57:14
+354,CAT00110,2020-09-21,Preventive,Caterpillar Preventive maintenance,1006.01,13.7,TECH9005,"[""Suspension"", ""Differential""]",2021-05-23,8,67.41,2025-08-28 16:57:14
+355,CAT00110,2021-11-06,Preventive,Caterpillar Preventive maintenance,1376.39,12.72,TECH4183,"[""Dump Body"", ""Suspension"", ""Brakes""]",2022-03-19,8,26.68,2025-08-28 16:57:14
+356,CAT00110,2021-08-09,Preventive,Caterpillar Preventive maintenance,3176.62,12.88,TECH5577,"[""Brakes""]",2022-06-11,10,68.33,2025-08-28 16:57:14
+357,CAT00110,2023-04-19,Preventive,Caterpillar Preventive maintenance,2410.63,3.37,TECH7089,"[""Brakes""]",2023-09-19,9,61.52,2025-08-28 16:57:14
+358,CAT00111,2022-01-27,Preventive,Caterpillar Preventive maintenance,3092.47,8.6,TECH2531,"[""Moldboard""]",2022-10-15,8,27.81,2025-08-28 16:57:14
+359,CAT00111,2020-09-04,Preventive,Caterpillar Preventive maintenance,5046.89,7.54,TECH6739,"[""Circle"", ""Blade""]",2021-01-06,9,56.95,2025-08-28 16:57:14
+360,CAT00111,2023-07-14,Corrective,Caterpillar Corrective maintenance,2782.46,7.32,TECH2134,"[""Circle"", ""Scarifier"", ""Moldboard""]",2024-04-07,9,29.85,2025-08-28 16:57:14
+361,CAT00111,2021-01-25,Preventive,Caterpillar Preventive maintenance,5537.79,3.82,TECH3566,"[""Circle"", ""Scarifier"", ""Moldboard""]",2021-05-18,8,10.12,2025-08-28 16:57:14
+362,CAT00111,2023-02-27,Corrective,Caterpillar Corrective maintenance,1326.79,13.68,TECH9623,"[""Scarifier"", ""Moldboard"", ""Circle""]",2023-09-11,8,16.22,2025-08-28 16:57:14
+363,CAT00112,2024-09-20,Corrective,Caterpillar Corrective maintenance,1441.85,10.68,TECH3899,"[""Boom Cylinder"", ""Sprocket""]",2025-05-08,10,27.27,2025-08-28 16:57:14
+364,CAT00112,2021-02-26,Preventive,Caterpillar Preventive maintenance,1757.48,11.67,TECH4728,"[""Track Assembly""]",2021-09-10,10,56.25,2025-08-28 16:57:14
+365,CAT00112,2024-05-17,Corrective,Caterpillar Corrective maintenance,2859.05,8.06,TECH7623,"[""Sprocket""]",2025-02-28,8,64.36,2025-08-28 16:57:14
+366,CAT00113,2018-07-05,Preventive,Caterpillar Preventive maintenance,3680.82,5.07,TECH2172,"[""Radiator"", ""Blade""]",2018-11-11,10,61.93,2025-08-28 16:57:14
+367,CAT00114,2017-11-29,Corrective,Caterpillar Corrective maintenance,914.6,14.07,TECH5501,"[""Final Drive"", ""Blade""]",2018-04-18,9,11.1,2025-08-28 16:57:14
+368,CAT00114,2023-03-17,Preventive,Caterpillar Preventive maintenance,5982.94,15.58,TECH8131,"[""Ripper"", ""Blade"", ""Radiator""]",2023-09-08,10,59.43,2025-08-28 16:57:14
+369,CAT00114,2022-09-14,Preventive,Caterpillar Preventive maintenance,4265.91,15.88,TECH4936,"[""Radiator""]",2023-04-08,9,30.59,2025-08-28 16:57:14
+370,CAT00114,2023-06-23,Preventive,Caterpillar Preventive maintenance,2639.66,10.82,TECH8412,"[""Final Drive"", ""Ripper""]",2024-04-03,9,19.1,2025-08-28 16:57:14
+371,CAT00114,2022-10-06,Preventive,Caterpillar Preventive maintenance,3565.45,3.74,TECH1827,"[""Radiator"", ""Final Drive""]",2023-04-01,9,12.78,2025-08-28 16:57:14
+372,CAT00115,2020-05-06,Corrective,Caterpillar Corrective maintenance,2617.58,9.66,TECH9285,"[""Radiator"", ""Final Drive""]",2021-05-06,10,61.31,2025-08-28 16:57:14
+373,CAT00115,2025-07-08,Corrective,Caterpillar Corrective maintenance,4311.96,9.58,TECH4890,"[""Ripper"", ""Blade"", ""Radiator""]",2026-02-20,10,57.99,2025-08-28 16:57:14
+374,CAT00115,2019-02-22,Emergency,Caterpillar Emergency maintenance,3431.35,15.32,TECH1149,"[""Ripper""]",2019-10-10,8,62.19,2025-08-28 16:57:14
+375,CAT00115,2023-01-24,Preventive,Caterpillar Preventive maintenance,1516.03,4.68,TECH6816,"[""Blade"", ""Final Drive"", ""Radiator""]",2023-07-16,9,59.81,2025-08-28 16:57:14
+376,CAT00115,2024-04-14,Emergency,Caterpillar Emergency maintenance,1861.21,15.04,TECH7716,"[""Radiator""]",2025-04-12,9,29.3,2025-08-28 16:57:14
+377,CAT00116,2020-11-22,Preventive,Caterpillar Preventive maintenance,4491.68,14.82,TECH1167,"[""Sprocket""]",2021-03-14,8,47.53,2025-08-28 16:57:14
+378,CAT00116,2020-05-18,Preventive,Caterpillar Preventive maintenance,2043.27,8.78,TECH8164,"[""Boom Cylinder""]",2021-02-25,10,41.44,2025-08-28 16:57:14
+379,CAT00116,2021-10-10,Corrective,Caterpillar Corrective maintenance,3709.7,6.67,TECH1933,"[""Hydraulic Pump"", ""Sprocket""]",2022-04-22,10,65.29,2025-08-28 16:57:14
+380,CAT00117,2022-09-22,Preventive,Caterpillar Preventive maintenance,1693.81,6.91,TECH4874,"[""Alternator"", ""Voltage Regulator""]",2023-02-11,9,41.98,2025-08-28 16:57:14
+381,CAT00117,2019-12-19,Preventive,Caterpillar Preventive maintenance,1358.66,13.02,TECH9795,"[""Alternator""]",2020-06-12,8,49.28,2025-08-28 16:57:14
+382,CAT00117,2018-10-28,Preventive,Caterpillar Preventive maintenance,1800.16,11.37,TECH7244,"[""Voltage Regulator""]",2019-07-24,8,66.71,2025-08-28 16:57:14
+383,CAT00117,2019-02-21,Preventive,Caterpillar Preventive maintenance,4917.12,5.62,TECH9448,"[""Starter""]",2019-12-08,9,51.26,2025-08-28 16:57:14
+384,CAT00118,2024-05-23,Preventive,Caterpillar Preventive maintenance,5422.21,5.51,TECH5210,"[""Axle"", ""Lift Arms"", ""Bucket""]",2025-02-04,10,41.61,2025-08-28 16:57:14
+385,CAT00118,2023-05-30,Corrective,Caterpillar Corrective maintenance,3475.61,10.8,TECH5195,"[""Transmission"", ""Axle"", ""Lift Arms""]",2023-12-16,10,53.57,2025-08-28 16:57:14
+386,CAT00119,2023-12-28,Preventive,Caterpillar Preventive maintenance,5513.28,2.19,TECH7910,"[""Track Assembly"", ""Boom Cylinder""]",2024-09-29,8,35.19,2025-08-28 16:57:14
+387,CAT00119,2025-01-11,Preventive,Caterpillar Preventive maintenance,3062.11,14.53,TECH3867,"[""Sprocket"", ""Hydraulic Pump""]",2025-12-16,8,32.83,2025-08-28 16:57:14
+388,CAT00119,2024-10-13,Preventive,Caterpillar Preventive maintenance,994.89,8.01,TECH4164,"[""Sprocket"", ""Track Assembly""]",2025-09-16,10,32.3,2025-08-28 16:57:14
+389,CAT00119,2024-08-24,Preventive,Caterpillar Preventive maintenance,5661.75,12.07,TECH3512,"[""Track Assembly"", ""Boom Cylinder""]",2024-12-13,9,51.6,2025-08-28 16:57:14
+390,CAT00119,2024-12-30,Emergency,Caterpillar Emergency maintenance,5871.34,6.03,TECH2791,"[""Hydraulic Pump"", ""Sprocket"", ""Track Assembly""]",2025-09-24,9,65.72,2025-08-28 16:57:14
+391,CAT00120,2023-07-12,Preventive,Caterpillar Preventive maintenance,3798.25,12.33,TECH6375,"[""Fuel Injector""]",2024-01-14,8,33.03,2025-08-28 16:57:14
+392,CAT00120,2022-12-26,Preventive,Caterpillar Preventive maintenance,1126.02,7.53,TECH7150,"[""Voltage Regulator"", ""Alternator""]",2023-08-26,9,70.63,2025-08-28 16:57:14
+393,CAT00120,2024-04-02,Corrective,Caterpillar Corrective maintenance,1113.58,2.76,TECH9833,"[""Alternator"", ""Voltage Regulator"", ""Starter""]",2025-01-03,10,38.69,2025-08-28 16:57:14
+394,CAT00121,2016-06-02,Preventive,Caterpillar Preventive maintenance,4622.38,10.52,TECH5319,"[""Tank"", ""Air Filter""]",2016-10-25,9,23.26,2025-08-28 16:57:14
+395,CAT00121,2015-08-17,Preventive,Caterpillar Preventive maintenance,3019.48,3.52,TECH2711,"[""Tank"", ""Compressor Pump"", ""Pressure Switch""]",2016-04-03,8,19.38,2025-08-28 16:57:14
+396,CAT00121,2021-09-23,Preventive,Caterpillar Preventive maintenance,2001.77,2.14,TECH3199,"[""Compressor Pump"", ""Air Filter"", ""Pressure Switch""]",2022-09-03,9,50.22,2025-08-28 16:57:14
+397,CAT00121,2021-03-02,Preventive,Caterpillar Preventive maintenance,832.22,13.84,TECH2459,"[""Air Filter"", ""Pressure Switch"", ""Compressor Pump""]",2021-10-28,10,52.93,2025-08-28 16:57:14
+398,CAT00122,2025-03-05,Corrective,Caterpillar Corrective maintenance,1860.35,14.56,TECH2608,"[""Tank"", ""Air Filter"", ""Pressure Switch""]",2025-08-15,9,20.47,2025-08-28 16:57:14
+399,CAT00123,2025-05-04,Preventive,Caterpillar Preventive maintenance,2370.06,8.04,TECH8585,"[""Transmission"", ""Bucket""]",2025-11-19,8,11.86,2025-08-28 16:57:14
+400,CAT00123,2017-09-16,Corrective,Caterpillar Corrective maintenance,4398.7,10.51,TECH3320,"[""Bucket"", ""Lift Arms""]",2018-08-14,10,22.88,2025-08-28 16:57:14
+401,CAT00123,2019-07-10,Preventive,Caterpillar Preventive maintenance,1692.0,12.98,TECH6986,"[""Axle""]",2020-05-14,9,67.49,2025-08-28 16:57:14
+402,CAT00123,2023-07-28,Preventive,Caterpillar Preventive maintenance,5656.09,14.76,TECH8134,"[""Bucket"", ""Transmission""]",2024-03-18,8,12.53,2025-08-28 16:57:14
+403,CAT00124,2022-01-18,Corrective,Caterpillar Corrective maintenance,1504.07,3.36,TECH3173,"[""Hydraulic Pump"", ""Boom Cylinder"", ""Track Assembly""]",2022-08-21,10,68.41,2025-08-28 16:57:14
+404,CAT00124,2021-04-17,Preventive,Caterpillar Preventive maintenance,2981.95,9.23,TECH9982,"[""Boom Cylinder"", ""Hydraulic Pump"", ""Sprocket""]",2022-04-12,8,44.7,2025-08-28 16:57:14
+405,CAT00124,2023-03-08,Emergency,Caterpillar Emergency maintenance,2472.02,2.08,TECH7936,"[""Sprocket"", ""Boom Cylinder"", ""Hydraulic Pump""]",2023-08-02,8,40.53,2025-08-28 16:57:14
+406,CAT00125,2024-01-08,Emergency,Caterpillar Emergency maintenance,3686.04,13.44,TECH1661,"[""Stabilizer"", ""Loader Bucket"", ""Backhoe Bucket""]",2024-09-11,9,15.87,2025-08-28 16:57:14
+407,CAT00126,2021-07-26,Preventive,Caterpillar Preventive maintenance,4406.46,13.6,TECH1024,"[""Blade"", ""Radiator""]",2021-12-09,10,59.65,2025-08-28 16:57:14
+408,CAT00126,2024-06-03,Preventive,Caterpillar Preventive maintenance,2021.34,2.4,TECH6328,"[""Ripper"", ""Final Drive"", ""Radiator""]",2024-11-29,9,40.91,2025-08-28 16:57:14
+409,CAT00126,2025-04-28,Corrective,Caterpillar Corrective maintenance,2758.04,5.75,TECH2705,"[""Final Drive"", ""Blade""]",2025-10-10,10,49.42,2025-08-28 16:57:14
+410,CAT00126,2021-10-01,Preventive,Caterpillar Preventive maintenance,1588.73,13.44,TECH2375,"[""Ripper"", ""Final Drive"", ""Radiator""]",2022-08-23,9,32.89,2025-08-28 16:57:14
+411,CAT00126,2024-03-28,Preventive,Caterpillar Preventive maintenance,5432.99,7.38,TECH4316,"[""Final Drive""]",2024-10-16,10,54.56,2025-08-28 16:57:14
+412,CAT00127,2023-01-22,Preventive,Caterpillar Preventive maintenance,4905.7,14.85,TECH4704,"[""Transmission"", ""Axle"", ""Bucket""]",2023-05-20,8,55.1,2025-08-28 16:57:14
+413,CAT00127,2023-07-06,Preventive,Caterpillar Preventive maintenance,3017.86,6.6,TECH7193,"[""Bucket"", ""Axle""]",2023-11-05,9,19.97,2025-08-28 16:57:14
+414,CAT00128,2025-08-12,Preventive,Caterpillar Preventive maintenance,5091.84,6.0,TECH3367,"[""Grapple""]",2026-06-01,9,34.71,2025-08-28 16:57:14
+415,CAT00128,2016-03-01,Preventive,Caterpillar Preventive maintenance,4143.81,4.21,TECH2285,"[""Grapple"", ""Snow Blower""]",2016-09-08,10,62.76,2025-08-28 16:57:14
+416,CAT00128,2025-07-14,Preventive,Caterpillar Preventive maintenance,2539.18,11.71,TECH2367,"[""Grapple"", ""Snow Blower"", ""Pallet Forks""]",2025-11-11,9,12.13,2025-08-28 16:57:14
+417,CAT00128,2022-07-21,Preventive,Caterpillar Preventive maintenance,3409.73,8.49,TECH6802,"[""Grapple"", ""Auger"", ""Pallet Forks""]",2023-03-07,8,18.95,2025-08-28 16:57:14
+418,CAT00129,2025-03-15,Preventive,Caterpillar Preventive maintenance,3549.14,2.46,TECH6736,"[""Blade"", ""Scarifier"", ""Circle""]",2025-11-15,9,27.49,2025-08-28 16:57:14
+419,CAT00129,2023-10-13,Preventive,Caterpillar Preventive maintenance,5384.74,14.14,TECH6593,"[""Blade"", ""Moldboard""]",2024-01-27,10,52.83,2025-08-28 16:57:14
+420,CAT00130,2023-08-29,Preventive,Caterpillar Preventive maintenance,3466.35,11.73,TECH9697,"[""Bucket""]",2023-11-30,9,23.08,2025-08-28 16:57:14
+421,CAT00130,2024-04-28,Preventive,Caterpillar Preventive maintenance,2193.04,10.49,TECH6369,"[""Bucket"", ""Lift Arms"", ""Axle""]",2024-08-11,8,68.92,2025-08-28 16:57:14
+422,CAT00130,2015-11-06,Preventive,Caterpillar Preventive maintenance,2509.38,11.75,TECH8722,"[""Transmission""]",2016-02-19,10,71.8,2025-08-28 16:57:14
+423,CAT00130,2024-05-17,Preventive,Caterpillar Preventive maintenance,2848.63,13.71,TECH2849,"[""Lift Arms""]",2024-10-13,10,28.65,2025-08-28 16:57:14
+424,CAT00130,2017-02-28,Preventive,Caterpillar Preventive maintenance,2716.87,8.93,TECH3509,"[""Lift Arms""]",2017-10-03,9,59.86,2025-08-28 16:57:14
+425,CAT00131,2024-09-24,Preventive,Caterpillar Preventive maintenance,3667.96,13.62,TECH4172,"[""Voltage Regulator"", ""Starter"", ""Alternator""]",2025-03-24,8,10.75,2025-08-28 16:57:14
+426,CAT00131,2020-08-31,Preventive,Caterpillar Preventive maintenance,4815.76,15.53,TECH9024,"[""Voltage Regulator""]",2021-05-07,9,22.79,2025-08-28 16:57:14
+427,CAT00131,2022-04-24,Corrective,Caterpillar Corrective maintenance,4998.32,13.14,TECH5447,"[""Alternator"", ""Starter"", ""Voltage Regulator""]",2022-08-05,9,70.77,2025-08-28 16:57:14
+428,CAT00131,2024-03-28,Preventive,Caterpillar Preventive maintenance,5728.09,6.37,TECH9949,"[""Fuel Injector"", ""Voltage Regulator""]",2025-01-29,10,61.71,2025-08-28 16:57:14
+429,CAT00131,2025-02-08,Preventive,Caterpillar Preventive maintenance,1354.21,10.96,TECH2930,"[""Alternator""]",2025-06-12,8,14.55,2025-08-28 16:57:14
+430,CAT00132,2025-07-06,Preventive,Caterpillar Preventive maintenance,5657.26,15.59,TECH5221,"[""Auger"", ""Snow Blower"", ""Pallet Forks""]",2025-12-15,8,47.41,2025-08-28 16:57:14
+431,CAT00132,2023-08-15,Preventive,Caterpillar Preventive maintenance,1841.02,4.42,TECH6163,"[""Pallet Forks"", ""Snow Blower"", ""Grapple""]",2024-04-28,8,66.65,2025-08-28 16:57:14
+432,CAT00132,2022-06-11,Preventive,Caterpillar Preventive maintenance,3613.74,6.98,TECH8863,"[""Snow Blower"", ""Grapple"", ""Auger""]",2023-03-26,10,20.72,2025-08-28 16:57:14
+433,CAT00133,2021-02-18,Preventive,Caterpillar Preventive maintenance,5896.76,9.52,TECH7994,"[""Dump Body"", ""Differential"", ""Suspension""]",2021-08-13,9,66.63,2025-08-28 16:57:14
+434,CAT00133,2023-09-20,Preventive,Caterpillar Preventive maintenance,2040.72,13.54,TECH6719,"[""Dump Body""]",2024-05-02,8,54.87,2025-08-28 16:57:14
+435,CAT00133,2025-03-10,Preventive,Caterpillar Preventive maintenance,3986.95,2.81,TECH6461,"[""Suspension"", ""Dump Body""]",2025-09-12,9,49.86,2025-08-28 16:57:14
+436,CAT00133,2021-09-14,Preventive,Caterpillar Preventive maintenance,3579.83,9.76,TECH3844,"[""Dump Body"", ""Suspension""]",2022-04-01,8,27.3,2025-08-28 16:57:14
+437,CAT00134,2024-04-01,Corrective,Caterpillar Corrective maintenance,4026.9,5.25,TECH2202,"[""Bucket""]",2024-10-17,10,68.37,2025-08-28 16:57:14
+438,CAT00134,2024-10-15,Preventive,Caterpillar Preventive maintenance,5637.18,2.81,TECH9317,"[""Axle"", ""Lift Arms"", ""Bucket""]",2025-10-14,10,47.59,2025-08-28 16:57:14
+439,CAT00134,2023-12-12,Preventive,Caterpillar Preventive maintenance,2020.59,9.11,TECH9358,"[""Transmission"", ""Lift Arms""]",2024-09-02,8,27.94,2025-08-28 16:57:14
+440,CAT00134,2025-01-11,Preventive,Caterpillar Preventive maintenance,1974.18,3.89,TECH9465,"[""Transmission"", ""Lift Arms"", ""Axle""]",2025-04-16,8,16.26,2025-08-28 16:57:14
+441,CAT00135,2018-05-24,Preventive,Caterpillar Preventive maintenance,1512.14,8.33,TECH6837,"[""Moldboard"", ""Blade""]",2018-10-19,10,35.92,2025-08-28 16:57:14
+442,CAT00135,2023-06-15,Preventive,Caterpillar Preventive maintenance,5534.28,12.19,TECH6692,"[""Blade"", ""Scarifier"", ""Moldboard""]",2024-05-17,8,18.19,2025-08-28 16:57:14
+443,CAT00135,2019-07-14,Preventive,Caterpillar Preventive maintenance,4983.73,7.42,TECH3966,"[""Circle"", ""Moldboard"", ""Blade""]",2019-12-11,8,55.0,2025-08-28 16:57:14
+444,CAT00135,2021-04-25,Preventive,Caterpillar Preventive maintenance,2842.63,4.47,TECH6989,"[""Circle"", ""Blade"", ""Scarifier""]",2021-11-11,9,15.85,2025-08-28 16:57:14
+445,CAT00136,2023-03-12,Corrective,Caterpillar Corrective maintenance,4464.89,5.68,TECH9050,"[""Lift Arms"", ""Axle"", ""Bucket""]",2023-07-05,10,21.26,2025-08-28 16:57:14
+446,CAT00136,2021-02-08,Corrective,Caterpillar Corrective maintenance,1427.7,4.32,TECH4141,"[""Lift Arms""]",2021-12-06,8,66.76,2025-08-28 16:57:14
+447,CAT00136,2018-05-31,Corrective,Caterpillar Corrective maintenance,2514.38,5.27,TECH9283,"[""Transmission""]",2019-01-24,9,31.38,2025-08-28 16:57:14
+448,CAT00136,2017-12-31,Corrective,Caterpillar Corrective maintenance,1686.0,4.61,TECH1237,"[""Lift Arms"", ""Axle"", ""Bucket""]",2018-11-27,9,47.2,2025-08-28 16:57:14
+449,CAT00136,2025-08-02,Corrective,Caterpillar Corrective maintenance,5882.03,3.74,TECH2651,"[""Axle"", ""Bucket"", ""Lift Arms""]",2026-07-27,10,23.4,2025-08-28 16:57:14
+450,CAT00137,2017-12-30,Preventive,Caterpillar Preventive maintenance,4171.32,14.99,TECH6303,"[""Track Assembly"", ""Boom Cylinder""]",2018-08-11,8,71.3,2025-08-28 16:57:14
+451,CAT00137,2023-11-21,Corrective,Caterpillar Corrective maintenance,2727.95,8.03,TECH1041,"[""Sprocket""]",2024-10-30,8,8.24,2025-08-28 16:57:14
+452,CAT00137,2018-12-07,Preventive,Caterpillar Preventive maintenance,2067.53,12.52,TECH4981,"[""Hydraulic Pump""]",2019-05-19,8,17.73,2025-08-28 16:57:14
+453,CAT00137,2017-02-20,Preventive,Caterpillar Preventive maintenance,1023.92,13.04,TECH1616,"[""Track Assembly"", ""Sprocket""]",2018-01-15,9,39.86,2025-08-28 16:57:14
+454,CAT00137,2024-05-19,Preventive,Caterpillar Preventive maintenance,2514.52,13.59,TECH2701,"[""Sprocket"", ""Boom Cylinder""]",2025-03-24,9,21.2,2025-08-28 16:57:14
+455,CAT00138,2024-04-22,Preventive,Caterpillar Preventive maintenance,3320.29,13.73,TECH5855,"[""Drum"", ""Water System""]",2025-04-14,8,69.13,2025-08-28 16:57:14
+456,CAT00138,2020-03-13,Emergency,Caterpillar Emergency maintenance,4258.68,7.43,TECH6232,"[""Water System""]",2020-08-25,8,31.04,2025-08-28 16:57:14
+457,CAT00138,2020-01-30,Corrective,Caterpillar Corrective maintenance,3223.03,11.06,TECH6076,"[""Engine""]",2020-11-18,8,56.36,2025-08-28 16:57:14
+458,CAT00138,2025-06-14,Preventive,Caterpillar Preventive maintenance,4045.9,8.45,TECH4927,"[""Engine"", ""Drum""]",2025-10-27,10,31.29,2025-08-28 16:57:14
+459,CAT00139,2024-06-28,Preventive,Caterpillar Preventive maintenance,2502.32,4.54,TECH2571,"[""Grapple"", ""Auger""]",2024-11-16,9,47.83,2025-08-28 16:57:14
+460,CAT00139,2022-02-10,Emergency,Caterpillar Emergency maintenance,3543.88,13.75,TECH7454,"[""Auger"", ""Snow Blower""]",2022-05-14,9,21.09,2025-08-28 16:57:14
+461,CAT00139,2020-04-24,Preventive,Caterpillar Preventive maintenance,1084.68,8.62,TECH5208,"[""Snow Blower"", ""Pallet Forks"", ""Auger""]",2020-07-24,8,45.49,2025-08-28 16:57:14
+462,CAT00139,2024-05-15,Preventive,Caterpillar Preventive maintenance,3492.06,8.44,TECH6517,"[""Auger"", ""Snow Blower"", ""Pallet Forks""]",2024-11-13,10,44.63,2025-08-28 16:57:14
+463,CAT00140,2023-11-11,Corrective,Caterpillar Corrective maintenance,5557.51,10.57,TECH7193,"[""Compressor Pump""]",2024-08-11,9,42.67,2025-08-28 16:57:14
+464,CAT00140,2024-01-01,Preventive,Caterpillar Preventive maintenance,2591.64,2.14,TECH5667,"[""Pressure Switch"", ""Air Filter""]",2024-05-16,10,55.57,2025-08-28 16:57:14
+465,CAT00140,2025-03-18,Emergency,Caterpillar Emergency maintenance,5623.33,6.78,TECH9000,"[""Pressure Switch"", ""Tank""]",2026-01-01,10,20.19,2025-08-28 16:57:14
+466,CAT00141,2017-11-27,Preventive,Caterpillar Preventive maintenance,5054.75,4.96,TECH7824,"[""Brakes"", ""Differential"", ""Dump Body""]",2018-10-02,8,61.87,2025-08-28 16:57:14
+467,CAT00141,2024-01-22,Preventive,Caterpillar Preventive maintenance,2986.73,9.03,TECH1013,"[""Differential"", ""Dump Body"", ""Brakes""]",2024-05-14,8,63.03,2025-08-28 16:57:14
+468,CAT00142,2020-12-24,Preventive,Caterpillar Preventive maintenance,5733.86,11.2,TECH3352,"[""Air Filter""]",2021-08-20,8,56.62,2025-08-28 16:57:14
+469,CAT00142,2020-01-12,Preventive,Caterpillar Preventive maintenance,4381.9,14.78,TECH8933,"[""Air Filter""]",2020-12-06,10,24.05,2025-08-28 16:57:14
+470,CAT00142,2021-07-23,Preventive,Caterpillar Preventive maintenance,2765.21,3.97,TECH4426,"[""Pressure Switch""]",2022-04-20,10,56.96,2025-08-28 16:57:14
+471,CAT00143,2018-11-06,Preventive,Caterpillar Preventive maintenance,4483.66,14.98,TECH8515,"[""Moldboard"", ""Scarifier""]",2019-07-29,9,32.55,2025-08-28 16:57:14
+472,CAT00143,2024-05-25,Preventive,Caterpillar Preventive maintenance,3337.88,8.73,TECH3640,"[""Circle"", ""Blade"", ""Scarifier""]",2024-10-29,8,12.41,2025-08-28 16:57:14
+473,CAT00143,2024-11-10,Corrective,Caterpillar Corrective maintenance,2045.22,14.85,TECH4916,"[""Blade""]",2025-05-02,10,55.49,2025-08-28 16:57:14
+474,CAT00144,2018-09-27,Corrective,Caterpillar Corrective maintenance,4654.22,2.28,TECH8338,"[""Voltage Regulator""]",2019-05-04,9,11.16,2025-08-28 16:57:14
+475,CAT00144,2019-09-04,Corrective,Caterpillar Corrective maintenance,2578.38,10.26,TECH1209,"[""Alternator""]",2020-01-25,9,13.83,2025-08-28 16:57:14
+476,CAT00144,2025-05-24,Preventive,Caterpillar Preventive maintenance,1155.46,11.56,TECH6152,"[""Voltage Regulator""]",2026-03-31,9,51.56,2025-08-28 16:57:14
+477,CAT00144,2024-02-05,Preventive,Caterpillar Preventive maintenance,1567.14,10.26,TECH2526,"[""Starter"", ""Voltage Regulator"", ""Fuel Injector""]",2024-06-12,8,18.25,2025-08-28 16:57:14
+478,CAT00144,2021-02-25,Corrective,Caterpillar Corrective maintenance,1900.51,6.64,TECH5607,"[""Voltage Regulator"", ""Alternator""]",2021-10-30,8,54.61,2025-08-28 16:57:14
+479,CAT00145,2024-05-08,Corrective,Caterpillar Corrective maintenance,4673.75,9.14,TECH1522,"[""Brakes"", ""Dump Body"", ""Differential""]",2025-04-15,10,70.57,2025-08-28 16:57:14
+480,CAT00145,2023-12-22,Preventive,Caterpillar Preventive maintenance,1674.26,14.55,TECH4194,"[""Brakes""]",2024-11-15,9,34.3,2025-08-28 16:57:14
+481,CAT00145,2025-03-27,Preventive,Caterpillar Preventive maintenance,5886.64,7.99,TECH7968,"[""Suspension"", ""Brakes"", ""Differential""]",2026-02-25,10,53.57,2025-08-28 16:57:14
+482,CAT00145,2023-10-30,Preventive,Caterpillar Preventive maintenance,5794.61,2.56,TECH1914,"[""Suspension"", ""Dump Body"", ""Brakes""]",2024-10-04,10,22.85,2025-08-28 16:57:14
+483,CAT00146,2021-12-27,Preventive,Caterpillar Preventive maintenance,5471.47,8.96,TECH7746,"[""Sprocket""]",2022-05-26,10,57.58,2025-08-28 16:57:14
+484,CAT00146,2020-07-17,Preventive,Caterpillar Preventive maintenance,3349.79,11.06,TECH7397,"[""Boom Cylinder""]",2020-11-26,9,55.86,2025-08-28 16:57:14
+485,CAT00146,2024-07-18,Preventive,Caterpillar Preventive maintenance,2575.25,4.74,TECH2435,"[""Track Assembly"", ""Boom Cylinder"", ""Hydraulic Pump""]",2025-03-01,9,57.86,2025-08-28 16:57:14
+486,CAT00146,2025-08-01,Preventive,Caterpillar Preventive maintenance,3338.37,10.08,TECH2614,"[""Hydraulic Pump""]",2026-06-19,8,21.39,2025-08-28 16:57:14
+487,CAT00147,2023-05-13,Corrective,Caterpillar Corrective maintenance,4243.94,4.69,TECH5635,"[""Air Filter"", ""Compressor Pump"", ""Pressure Switch""]",2024-01-02,9,10.65,2025-08-28 16:57:14
+488,CAT00147,2023-05-17,Corrective,Caterpillar Corrective maintenance,1745.75,3.77,TECH8399,"[""Compressor Pump"", ""Air Filter""]",2024-01-29,9,70.05,2025-08-28 16:57:14
+489,CAT00148,2019-12-28,Preventive,Caterpillar Preventive maintenance,5586.9,10.23,TECH3498,"[""Backhoe Bucket"", ""PTO"", ""Loader Bucket""]",2020-11-14,10,19.48,2025-08-28 16:57:14
+490,CAT00148,2023-01-21,Preventive,Caterpillar Preventive maintenance,3784.17,5.23,TECH5846,"[""Loader Bucket""]",2023-10-17,9,41.93,2025-08-28 16:57:14
+491,CAT00148,2023-12-04,Corrective,Caterpillar Corrective maintenance,5053.5,9.14,TECH2707,"[""Loader Bucket"", ""Stabilizer"", ""PTO""]",2024-11-03,9,17.84,2025-08-28 16:57:14
+492,CAT00148,2020-04-04,Preventive,Caterpillar Preventive maintenance,1483.84,2.69,TECH4918,"[""Backhoe Bucket"", ""Stabilizer""]",2020-12-10,10,68.6,2025-08-28 16:57:14
+493,CAT00148,2018-09-16,Corrective,Caterpillar Corrective maintenance,5943.38,12.16,TECH4047,"[""Loader Bucket"", ""Stabilizer""]",2019-06-22,8,52.59,2025-08-28 16:57:14
+494,CAT00149,2022-09-09,Preventive,Caterpillar Preventive maintenance,3163.73,10.85,TECH8936,"[""Lift Arms"", ""Bucket"", ""Transmission""]",2023-01-26,9,10.04,2025-08-28 16:57:14
+495,CAT00149,2022-01-08,Preventive,Caterpillar Preventive maintenance,2561.89,9.34,TECH2107,"[""Lift Arms"", ""Bucket""]",2022-04-13,8,28.13,2025-08-28 16:57:14
+496,CAT00150,2023-06-09,Preventive,Caterpillar Preventive maintenance,4045.86,10.54,TECH2859,"[""Auger""]",2024-02-16,8,48.65,2025-08-28 16:57:14
+497,CAT00150,2023-12-10,Preventive,Caterpillar Preventive maintenance,1771.73,9.23,TECH3499,"[""Snow Blower"", ""Grapple""]",2024-06-28,8,17.69,2025-08-28 16:57:14
+498,CAT00150,2025-05-10,Preventive,Caterpillar Preventive maintenance,5690.79,8.45,TECH1525,"[""Grapple""]",2025-11-07,10,53.5,2025-08-28 16:57:14
+499,CAT00151,2024-03-19,Corrective,Caterpillar Corrective maintenance,1593.59,3.78,TECH8524,"[""Transmission"", ""Axle""]",2024-12-02,9,56.81,2025-08-28 16:57:14
+500,CAT00152,2024-10-16,Preventive,Caterpillar Preventive maintenance,1408.67,8.49,TECH9170,"[""Pressure Switch"", ""Air Filter""]",2025-06-28,10,71.69,2025-08-28 16:57:14
+501,CAT00153,2024-05-17,Preventive,Caterpillar Preventive maintenance,3641.65,12.9,TECH5971,"[""Grapple"", ""Pallet Forks"", ""Snow Blower""]",2024-11-23,8,15.05,2025-08-28 16:57:14
+502,CAT00154,2020-07-13,Preventive,Caterpillar Preventive maintenance,1098.01,9.56,TECH4019,"[""Circle"", ""Moldboard"", ""Scarifier""]",2020-12-15,8,24.84,2025-08-28 16:57:14
+503,CAT00154,2023-04-18,Preventive,Caterpillar Preventive maintenance,4000.19,5.71,TECH6704,"[""Blade"", ""Circle""]",2024-03-02,8,30.81,2025-08-28 16:57:14
+504,CAT00154,2023-03-15,Preventive,Caterpillar Preventive maintenance,1329.33,10.21,TECH7815,"[""Moldboard"", ""Scarifier"", ""Blade""]",2023-06-21,8,23.79,2025-08-28 16:57:14
+505,CAT00154,2025-02-15,Preventive,Caterpillar Preventive maintenance,5388.92,6.07,TECH1607,"[""Moldboard""]",2026-01-03,9,71.18,2025-08-28 16:57:14
+506,CAT00155,2022-08-27,Emergency,Caterpillar Emergency maintenance,3403.57,5.37,TECH6558,"[""Water System"", ""Drum"", ""Engine""]",2023-05-17,9,11.23,2025-08-28 16:57:14
+507,CAT00155,2019-10-15,Preventive,Caterpillar Preventive maintenance,2327.06,5.81,TECH6931,"[""Engine"", ""Vibratory System"", ""Water System""]",2020-10-07,9,50.68,2025-08-28 16:57:14
+508,CAT00155,2024-09-26,Corrective,Caterpillar Corrective maintenance,3305.05,8.7,TECH8965,"[""Engine""]",2025-03-13,8,32.67,2025-08-28 16:57:14
+509,CAT00155,2017-09-10,Preventive,Caterpillar Preventive maintenance,4081.56,9.33,TECH2771,"[""Engine"", ""Water System""]",2018-06-23,10,66.05,2025-08-28 16:57:14
+510,CAT00156,2025-01-14,Preventive,Caterpillar Preventive maintenance,3821.32,7.9,TECH4948,"[""Track Assembly"", ""Boom Cylinder""]",2025-11-15,10,62.04,2025-08-28 16:57:14
+511,CAT00156,2021-05-06,Preventive,Caterpillar Preventive maintenance,1729.32,12.74,TECH3451,"[""Sprocket""]",2022-02-27,9,41.68,2025-08-28 16:57:14
+512,CAT00157,2025-03-25,Preventive,Caterpillar Preventive maintenance,4798.24,6.22,TECH4099,"[""PTO"", ""Backhoe Bucket""]",2025-10-26,9,30.43,2025-08-28 16:57:14
+513,CAT00157,2021-09-08,Preventive,Caterpillar Preventive maintenance,3076.4,7.29,TECH6380,"[""Loader Bucket""]",2022-03-12,8,36.12,2025-08-28 16:57:14
+514,CAT00157,2025-03-23,Preventive,Caterpillar Preventive maintenance,4192.92,7.0,TECH4220,"[""Loader Bucket""]",2026-01-18,9,14.19,2025-08-28 16:57:14
+515,CAT00157,2019-09-16,Corrective,Caterpillar Corrective maintenance,835.32,7.66,TECH5284,"[""Backhoe Bucket"", ""Loader Bucket"", ""Stabilizer""]",2020-03-25,10,45.78,2025-08-28 16:57:14
+516,CAT00158,2019-07-21,Preventive,Caterpillar Preventive maintenance,3518.03,11.82,TECH6653,"[""Track Assembly"", ""Boom Cylinder""]",2019-12-13,10,45.96,2025-08-28 16:57:14
+517,CAT00159,2024-03-19,Preventive,Caterpillar Preventive maintenance,4062.51,9.2,TECH2500,"[""Compressor Pump""]",2024-09-25,8,19.86,2025-08-28 16:57:14
+518,CAT00159,2021-11-13,Preventive,Caterpillar Preventive maintenance,2811.66,13.48,TECH3145,"[""Air Filter"", ""Compressor Pump""]",2022-09-04,9,15.4,2025-08-28 16:57:14
+519,CAT00159,2020-12-03,Emergency,Caterpillar Emergency maintenance,5415.39,14.16,TECH2178,"[""Pressure Switch""]",2021-09-21,8,14.1,2025-08-28 16:57:14
+520,CAT00159,2019-08-22,Preventive,Caterpillar Preventive maintenance,3729.71,11.54,TECH8443,"[""Air Filter"", ""Compressor Pump""]",2020-06-12,10,68.98,2025-08-28 16:57:14
+521,CAT00159,2023-07-05,Preventive,Caterpillar Preventive maintenance,3447.97,13.95,TECH7884,"[""Pressure Switch""]",2023-11-05,8,57.96,2025-08-28 16:57:14
+522,CAT00160,2022-10-24,Preventive,Caterpillar Preventive maintenance,3060.45,7.34,TECH3400,"[""Voltage Regulator"", ""Fuel Injector"", ""Alternator""]",2023-08-13,10,39.69,2025-08-28 16:57:14
+523,CAT00160,2024-03-21,Preventive,Caterpillar Preventive maintenance,4867.7,5.54,TECH2504,"[""Voltage Regulator"", ""Starter"", ""Alternator""]",2025-01-08,8,49.27,2025-08-28 16:57:14
+524,CAT00161,2017-02-25,Corrective,Caterpillar Corrective maintenance,803.06,9.6,TECH6489,"[""Hydraulic Pump""]",2017-09-20,9,62.39,2025-08-28 16:57:14
+525,CAT00161,2021-04-24,Preventive,Caterpillar Preventive maintenance,3169.98,2.08,TECH7221,"[""Track Assembly""]",2021-09-18,8,45.39,2025-08-28 16:57:14
+526,CAT00161,2017-02-05,Corrective,Caterpillar Corrective maintenance,4102.22,14.87,TECH9432,"[""Hydraulic Pump"", ""Track Assembly"", ""Boom Cylinder""]",2017-05-20,9,22.19,2025-08-28 16:57:14
+527,CAT00161,2024-05-05,Preventive,Caterpillar Preventive maintenance,5530.3,8.65,TECH8173,"[""Sprocket""]",2025-02-28,10,20.61,2025-08-28 16:57:14
+528,CAT00162,2022-10-15,Preventive,Caterpillar Preventive maintenance,3885.77,9.4,TECH6128,"[""Stabilizer""]",2023-03-02,10,54.12,2025-08-28 16:57:14
+529,CAT00162,2018-12-06,Emergency,Caterpillar Emergency maintenance,5986.38,12.92,TECH5369,"[""Backhoe Bucket"", ""Stabilizer"", ""PTO""]",2019-06-26,8,67.12,2025-08-28 16:57:14
+530,CAT00163,2021-07-07,Preventive,Caterpillar Preventive maintenance,1913.95,5.13,TECH6157,"[""Vibratory System"", ""Water System"", ""Drum""]",2022-02-15,10,56.17,2025-08-28 16:57:14
+531,CAT00164,2022-12-31,Preventive,Caterpillar Preventive maintenance,4900.47,6.62,TECH9182,"[""Air Filter"", ""Tank""]",2023-04-17,8,40.27,2025-08-28 16:57:14
+532,CAT00164,2025-07-12,Corrective,Caterpillar Corrective maintenance,2514.62,9.52,TECH7993,"[""Air Filter""]",2025-10-15,10,34.21,2025-08-28 16:57:14
+533,CAT00165,2023-04-01,Preventive,Caterpillar Preventive maintenance,4106.19,12.02,TECH5939,"[""Drum""]",2023-11-12,9,21.78,2025-08-28 16:57:14
+534,CAT00165,2022-04-23,Preventive,Caterpillar Preventive maintenance,5143.96,7.52,TECH6962,"[""Engine""]",2022-11-06,9,69.88,2025-08-28 16:57:14
+535,CAT00165,2023-04-04,Preventive,Caterpillar Preventive maintenance,4343.74,2.04,TECH5814,"[""Water System""]",2023-07-12,8,56.98,2025-08-28 16:57:14
+536,CAT00165,2023-03-21,Preventive,Caterpillar Preventive maintenance,3443.4,5.61,TECH9348,"[""Drum"", ""Water System""]",2023-11-12,9,26.72,2025-08-28 16:57:14
+537,CAT00165,2025-08-14,Preventive,Caterpillar Preventive maintenance,2763.99,15.65,TECH5735,"[""Engine""]",2026-01-21,8,65.41,2025-08-28 16:57:14
+538,CAT00166,2022-10-11,Preventive,Caterpillar Preventive maintenance,3964.41,4.55,TECH4886,"[""Final Drive"", ""Ripper"", ""Radiator""]",2023-07-24,10,16.25,2025-08-28 16:57:14
+539,CAT00167,2024-08-02,Corrective,Caterpillar Corrective maintenance,810.23,4.47,TECH6939,"[""Radiator"", ""Ripper"", ""Blade""]",2025-04-12,9,21.98,2025-08-28 16:57:14
+540,CAT00167,2023-10-12,Emergency,Caterpillar Emergency maintenance,4300.44,11.49,TECH3227,"[""Ripper"", ""Final Drive"", ""Radiator""]",2024-07-29,8,25.11,2025-08-28 16:57:14
+541,CAT00168,2021-05-01,Corrective,Caterpillar Corrective maintenance,5122.98,11.56,TECH4843,"[""Moldboard""]",2021-11-11,9,47.36,2025-08-28 16:57:14
+542,CAT00169,2024-07-13,Corrective,Caterpillar Corrective maintenance,2269.94,6.27,TECH7004,"[""Track Assembly"", ""Sprocket"", ""Boom Cylinder""]",2025-05-26,9,10.52,2025-08-28 16:57:14
+543,CAT00170,2020-10-25,Preventive,Caterpillar Preventive maintenance,1294.9,4.79,TECH4966,"[""Transmission""]",2021-05-14,8,22.99,2025-08-28 16:57:14
+544,CAT00171,2024-12-23,Emergency,Caterpillar Emergency maintenance,1276.35,9.05,TECH7472,"[""Lift Arms"", ""Bucket"", ""Transmission""]",2025-12-14,9,36.93,2025-08-28 16:57:14
+545,CAT00171,2025-04-16,Preventive,Caterpillar Preventive maintenance,5476.6,7.95,TECH2288,"[""Lift Arms"", ""Axle"", ""Bucket""]",2025-08-13,9,38.54,2025-08-28 16:57:14
+546,CAT00171,2025-01-14,Preventive,Caterpillar Preventive maintenance,2001.05,14.72,TECH1981,"[""Transmission"", ""Axle"", ""Bucket""]",2025-04-17,9,23.27,2025-08-28 16:57:14
+547,CAT00171,2025-05-07,Corrective,Caterpillar Corrective maintenance,5590.77,7.57,TECH7489,"[""Axle"", ""Bucket""]",2025-11-16,9,62.9,2025-08-28 16:57:14
+548,CAT00171,2025-03-26,Preventive,Caterpillar Preventive maintenance,4774.64,8.41,TECH6464,"[""Axle""]",2025-11-22,10,46.12,2025-08-28 16:57:14
+549,CAT00172,2023-03-26,Preventive,Caterpillar Preventive maintenance,4668.05,8.23,TECH1271,"[""Sprocket"", ""Boom Cylinder"", ""Track Assembly""]",2023-12-06,8,22.96,2025-08-28 16:57:14
+550,CAT00172,2025-07-14,Preventive,Caterpillar Preventive maintenance,3939.79,13.54,TECH2693,"[""Sprocket"", ""Hydraulic Pump""]",2025-12-06,10,13.77,2025-08-28 16:57:14
+551,CAT00173,2024-06-07,Preventive,Caterpillar Preventive maintenance,4084.74,2.29,TECH3964,"[""Sprocket""]",2025-06-06,8,29.31,2025-08-28 16:57:14
+552,CAT00173,2021-07-06,Corrective,Caterpillar Corrective maintenance,3208.23,2.64,TECH3129,"[""Boom Cylinder"", ""Track Assembly"", ""Hydraulic Pump""]",2022-01-16,10,22.5,2025-08-28 16:57:14
+553,CAT00173,2020-05-29,Preventive,Caterpillar Preventive maintenance,2960.23,4.66,TECH6597,"[""Sprocket"", ""Boom Cylinder""]",2021-05-29,10,58.35,2025-08-28 16:57:14
+554,CAT00174,2025-06-11,Preventive,Caterpillar Preventive maintenance,1403.64,11.75,TECH4597,"[""Water System"", ""Engine""]",2025-11-27,9,43.32,2025-08-28 16:57:14
+555,CAT00174,2025-05-01,Preventive,Caterpillar Preventive maintenance,4345.76,14.14,TECH1825,"[""Drum""]",2025-12-28,10,41.45,2025-08-28 16:57:14
+556,CAT00174,2025-06-23,Preventive,Caterpillar Preventive maintenance,5872.34,8.29,TECH5643,"[""Engine"", ""Drum""]",2026-03-30,10,64.72,2025-08-28 16:57:14
+557,CAT00174,2022-07-18,Preventive,Caterpillar Preventive maintenance,2728.74,10.78,TECH3348,"[""Vibratory System"", ""Drum"", ""Water System""]",2022-10-18,10,42.0,2025-08-28 16:57:14
+558,CAT00174,2023-03-25,Preventive,Caterpillar Preventive maintenance,3276.23,2.12,TECH5806,"[""Drum"", ""Vibratory System""]",2023-10-24,9,39.52,2025-08-28 16:57:14
+559,CAT00175,2018-05-06,Preventive,Caterpillar Preventive maintenance,883.62,8.95,TECH3830,"[""Circle""]",2018-09-11,9,34.01,2025-08-28 16:57:14
+560,CAT00175,2019-04-01,Corrective,Caterpillar Corrective maintenance,2920.11,7.72,TECH5387,"[""Circle"", ""Scarifier""]",2020-03-14,10,62.62,2025-08-28 16:57:14
+561,CAT00175,2022-11-18,Preventive,Caterpillar Preventive maintenance,1757.92,4.04,TECH9396,"[""Moldboard"", ""Circle"", ""Blade""]",2023-09-19,10,21.26,2025-08-28 16:57:14
+562,CAT00175,2018-03-01,Corrective,Caterpillar Corrective maintenance,2054.16,8.23,TECH5892,"[""Blade""]",2018-11-13,9,10.55,2025-08-28 16:57:14
+563,CAT00175,2017-07-09,Corrective,Caterpillar Corrective maintenance,992.63,12.61,TECH8011,"[""Scarifier""]",2018-06-17,10,12.62,2025-08-28 16:57:14
+564,CAT00176,2025-07-24,Preventive,Caterpillar Preventive maintenance,1121.21,3.83,TECH9552,"[""PTO""]",2026-05-15,8,35.47,2025-08-28 16:57:14
+565,CAT00176,2022-02-04,Emergency,Caterpillar Emergency maintenance,5380.84,4.21,TECH4612,"[""Backhoe Bucket""]",2022-08-17,9,58.37,2025-08-28 16:57:14
+566,CAT00177,2023-01-04,Preventive,Caterpillar Preventive maintenance,853.5,4.92,TECH7773,"[""Circle"", ""Blade"", ""Scarifier""]",2023-12-23,10,40.06,2025-08-28 16:57:14
+567,CAT00177,2023-08-06,Corrective,Caterpillar Corrective maintenance,4441.64,3.14,TECH2615,"[""Circle"", ""Blade""]",2024-01-30,10,17.4,2025-08-28 16:57:14
+568,CAT00177,2022-04-13,Preventive,Caterpillar Preventive maintenance,4934.81,6.26,TECH3213,"[""Scarifier"", ""Circle""]",2022-12-06,8,62.08,2025-08-28 16:57:14
+569,CAT00177,2024-10-30,Preventive,Caterpillar Preventive maintenance,3147.78,4.42,TECH2126,"[""Moldboard"", ""Scarifier"", ""Blade""]",2025-04-27,10,53.64,2025-08-28 16:57:14
+570,CAT00178,2023-11-12,Preventive,Caterpillar Preventive maintenance,1795.18,8.95,TECH3427,"[""Final Drive"", ""Ripper"", ""Radiator""]",2024-02-15,10,66.77,2025-08-28 16:57:14
+571,CAT00178,2025-06-01,Preventive,Caterpillar Preventive maintenance,828.18,6.51,TECH3457,"[""Radiator""]",2025-12-30,8,33.96,2025-08-28 16:57:14
+572,CAT00178,2023-01-10,Preventive,Caterpillar Preventive maintenance,1883.86,12.26,TECH9390,"[""Final Drive""]",2023-06-02,9,15.76,2025-08-28 16:57:14
+573,CAT00178,2022-05-22,Preventive,Caterpillar Preventive maintenance,4505.1,4.58,TECH8237,"[""Final Drive""]",2022-11-28,9,27.95,2025-08-28 16:57:14
+574,CAT00178,2023-10-24,Corrective,Caterpillar Corrective maintenance,5562.67,9.77,TECH7210,"[""Blade"", ""Radiator"", ""Final Drive""]",2024-02-29,9,46.32,2025-08-28 16:57:14
+575,CAT00179,2025-07-08,Preventive,Caterpillar Preventive maintenance,1814.05,7.35,TECH2397,"[""Final Drive"", ""Blade""]",2025-12-25,9,68.65,2025-08-28 16:57:14
+576,CAT00179,2023-11-17,Preventive,Caterpillar Preventive maintenance,2228.11,8.75,TECH8404,"[""Final Drive"", ""Blade"", ""Ripper""]",2024-09-02,10,21.49,2025-08-28 16:57:14
+577,CAT00179,2024-05-03,Preventive,Caterpillar Preventive maintenance,1509.48,4.42,TECH4554,"[""Blade""]",2024-11-03,10,51.24,2025-08-28 16:57:14
+578,CAT00179,2023-04-01,Corrective,Caterpillar Corrective maintenance,2808.67,14.93,TECH2645,"[""Radiator"", ""Ripper""]",2024-02-04,9,10.11,2025-08-28 16:57:14
+579,CAT00179,2024-10-23,Preventive,Caterpillar Preventive maintenance,5346.54,7.02,TECH1121,"[""Radiator"", ""Blade"", ""Final Drive""]",2025-04-30,8,34.76,2025-08-28 16:57:14
+580,CAT00180,2020-11-26,Emergency,Caterpillar Emergency maintenance,4577.36,8.54,TECH1926,"[""Compressor Pump""]",2021-05-15,10,63.07,2025-08-28 16:57:14
+581,CAT00180,2015-11-28,Preventive,Caterpillar Preventive maintenance,2691.36,14.11,TECH4438,"[""Air Filter"", ""Pressure Switch"", ""Compressor Pump""]",2016-09-13,8,23.71,2025-08-28 16:57:14
+582,CAT00180,2017-11-20,Preventive,Caterpillar Preventive maintenance,5152.62,6.78,TECH5070,"[""Pressure Switch"", ""Compressor Pump"", ""Air Filter""]",2018-09-15,9,68.09,2025-08-28 16:57:14
+583,CAT00180,2015-12-02,Preventive,Caterpillar Preventive maintenance,3815.65,13.87,TECH4677,"[""Tank"", ""Compressor Pump"", ""Pressure Switch""]",2016-07-01,10,36.68,2025-08-28 16:57:14
+584,CAT00181,2022-08-22,Corrective,Caterpillar Corrective maintenance,3791.01,14.77,TECH5196,"[""Grapple"", ""Auger""]",2023-03-11,10,20.74,2025-08-28 16:57:14
+585,CAT00182,2024-10-21,Preventive,Caterpillar Preventive maintenance,2643.79,15.97,TECH4559,"[""Ripper""]",2025-06-28,10,58.12,2025-08-28 16:57:14
+586,CAT00182,2022-09-15,Corrective,Caterpillar Corrective maintenance,2557.67,10.59,TECH2179,"[""Final Drive""]",2023-05-12,10,57.25,2025-08-28 16:57:14
+587,CAT00182,2022-12-22,Preventive,Caterpillar Preventive maintenance,1893.29,2.15,TECH1225,"[""Radiator"", ""Blade""]",2023-07-24,9,17.84,2025-08-28 16:57:14
+588,CAT00183,2023-09-02,Preventive,Caterpillar Preventive maintenance,4703.31,8.14,TECH2311,"[""Alternator"", ""Starter"", ""Fuel Injector""]",2024-02-16,8,11.2,2025-08-28 16:57:14
+589,CAT00184,2022-04-29,Preventive,Caterpillar Preventive maintenance,3996.46,11.4,TECH1318,"[""Auger"", ""Grapple""]",2023-03-28,8,62.3,2025-08-28 16:57:14
+590,CAT00184,2022-01-08,Preventive,Caterpillar Preventive maintenance,2027.39,2.51,TECH9544,"[""Pallet Forks""]",2022-11-16,10,8.88,2025-08-28 16:57:14
+591,CAT00184,2023-12-28,Preventive,Caterpillar Preventive maintenance,1016.37,5.41,TECH7550,"[""Snow Blower"", ""Grapple""]",2024-05-08,8,34.78,2025-08-28 16:57:14
+592,CAT00184,2022-02-12,Preventive,Caterpillar Preventive maintenance,1320.95,9.69,TECH5118,"[""Grapple"", ""Snow Blower""]",2022-09-16,8,37.35,2025-08-28 16:57:14
+593,CAT00184,2024-05-24,Preventive,Caterpillar Preventive maintenance,5979.06,9.88,TECH3662,"[""Auger""]",2024-12-12,9,31.46,2025-08-28 16:57:14
+594,CAT00185,2017-10-15,Emergency,Caterpillar Emergency maintenance,4521.03,6.57,TECH2409,"[""Hydraulic Pump"", ""Boom Cylinder"", ""Track Assembly""]",2018-06-05,8,70.76,2025-08-28 16:57:14
+595,CAT00185,2020-01-15,Preventive,Caterpillar Preventive maintenance,1882.39,13.89,TECH3608,"[""Sprocket""]",2020-12-02,10,21.71,2025-08-28 16:57:14
+596,CAT00185,2024-05-20,Corrective,Caterpillar Corrective maintenance,3344.91,4.1,TECH3814,"[""Boom Cylinder"", ""Sprocket""]",2024-09-04,9,60.37,2025-08-28 16:57:14
+597,CAT00185,2017-03-15,Preventive,Caterpillar Preventive maintenance,4303.01,12.3,TECH4974,"[""Sprocket"", ""Hydraulic Pump"", ""Track Assembly""]",2017-12-05,8,8.63,2025-08-28 16:57:14
+598,CAT00186,2025-04-22,Preventive,Caterpillar Preventive maintenance,2137.95,4.35,TECH7999,"[""Differential"", ""Suspension"", ""Brakes""]",2025-08-27,9,45.05,2025-08-28 16:57:14
+599,CAT00187,2024-04-23,Preventive,Caterpillar Preventive maintenance,838.38,8.0,TECH5067,"[""Suspension"", ""Dump Body"", ""Brakes""]",2024-09-05,8,36.88,2025-08-28 16:57:14
+600,CAT00187,2024-09-21,Emergency,Caterpillar Emergency maintenance,2751.96,4.98,TECH1444,"[""Differential""]",2025-02-17,10,57.86,2025-08-28 16:57:14
+601,CAT00187,2022-04-23,Corrective,Caterpillar Corrective maintenance,5585.76,9.05,TECH1271,"[""Differential""]",2022-10-12,10,35.11,2025-08-28 16:57:14
+602,CAT00187,2024-09-04,Preventive,Caterpillar Preventive maintenance,1557.06,5.63,TECH5254,"[""Dump Body"", ""Differential""]",2025-02-25,8,52.96,2025-08-28 16:57:14
+603,CAT00187,2021-10-12,Corrective,Caterpillar Corrective maintenance,1804.31,13.17,TECH1482,"[""Suspension"", ""Differential"", ""Brakes""]",2022-05-11,10,17.62,2025-08-28 16:57:14
+604,CAT00188,2018-11-28,Preventive,Caterpillar Preventive maintenance,2366.57,3.05,TECH6756,"[""Final Drive"", ""Radiator""]",2019-05-24,9,48.76,2025-08-28 16:57:14
+605,CAT00188,2023-11-21,Preventive,Caterpillar Preventive maintenance,3563.22,15.34,TECH9919,"[""Final Drive"", ""Radiator"", ""Ripper""]",2024-10-24,10,49.77,2025-08-28 16:57:14
+606,CAT00188,2021-10-25,Emergency,Caterpillar Emergency maintenance,2029.64,8.13,TECH5777,"[""Radiator"", ""Ripper""]",2022-08-02,8,27.24,2025-08-28 16:57:14
+607,CAT00189,2016-12-25,Preventive,Caterpillar Preventive maintenance,1671.75,4.73,TECH2831,"[""Axle"", ""Lift Arms"", ""Bucket""]",2017-04-28,8,51.79,2025-08-28 16:57:14
+608,CAT00190,2019-06-22,Corrective,Caterpillar Corrective maintenance,3568.99,14.32,TECH4670,"[""Air Filter""]",2019-10-23,8,27.89,2025-08-28 16:57:14
+609,CAT00190,2024-07-26,Preventive,Caterpillar Preventive maintenance,5737.62,8.97,TECH7888,"[""Air Filter"", ""Compressor Pump""]",2025-04-12,9,45.01,2025-08-28 16:57:14
+610,CAT00190,2023-03-30,Preventive,Caterpillar Preventive maintenance,4923.12,12.94,TECH2036,"[""Compressor Pump""]",2023-07-18,9,32.75,2025-08-28 16:57:14
+611,CAT00191,2025-03-03,Preventive,Caterpillar Preventive maintenance,5038.43,5.2,TECH5050,"[""Track Assembly"", ""Boom Cylinder""]",2025-07-04,9,19.83,2025-08-28 16:57:14
+612,CAT00191,2019-07-16,Preventive,Caterpillar Preventive maintenance,4288.34,13.48,TECH4497,"[""Boom Cylinder"", ""Track Assembly""]",2020-05-29,10,50.84,2025-08-28 16:57:14
+613,CAT00191,2020-11-29,Preventive,Caterpillar Preventive maintenance,2109.44,2.47,TECH1297,"[""Boom Cylinder""]",2021-05-17,10,51.88,2025-08-28 16:57:14
+614,CAT00192,2018-04-11,Preventive,Caterpillar Preventive maintenance,1181.1,7.03,TECH4712,"[""Moldboard""]",2019-01-12,10,44.34,2025-08-28 16:57:14
+615,CAT00192,2017-04-06,Preventive,Caterpillar Preventive maintenance,2401.49,6.95,TECH4516,"[""Moldboard"", ""Circle"", ""Scarifier""]",2018-03-03,10,67.08,2025-08-28 16:57:14
+616,CAT00192,2016-10-03,Preventive,Caterpillar Preventive maintenance,1074.28,10.47,TECH8094,"[""Moldboard""]",2017-07-21,9,23.76,2025-08-28 16:57:14
+617,CAT00193,2018-02-21,Preventive,Caterpillar Preventive maintenance,5791.2,14.47,TECH6876,"[""Backhoe Bucket""]",2019-02-06,10,57.86,2025-08-28 16:57:14
+618,CAT00193,2022-10-12,Preventive,Caterpillar Preventive maintenance,1382.79,7.19,TECH8439,"[""Stabilizer"", ""PTO"", ""Loader Bucket""]",2023-03-21,8,9.46,2025-08-28 16:57:14
+619,CAT00193,2022-02-24,Preventive,Caterpillar Preventive maintenance,4292.7,12.24,TECH1544,"[""PTO"", ""Loader Bucket""]",2022-11-12,9,36.18,2025-08-28 16:57:14
+620,CAT00193,2022-07-03,Preventive,Caterpillar Preventive maintenance,1351.54,2.24,TECH2678,"[""PTO""]",2022-12-12,9,49.13,2025-08-28 16:57:14
+621,CAT00193,2021-10-25,Corrective,Caterpillar Corrective maintenance,2900.15,8.41,TECH3173,"[""Backhoe Bucket""]",2022-07-24,8,11.28,2025-08-28 16:57:14
+622,CAT00194,2021-03-05,Corrective,Caterpillar Corrective maintenance,2873.19,12.7,TECH1669,"[""Lift Arms"", ""Axle""]",2022-02-08,9,46.92,2025-08-28 16:57:14
+623,CAT00194,2022-05-17,Corrective,Caterpillar Corrective maintenance,1494.72,4.64,TECH1446,"[""Lift Arms"", ""Transmission"", ""Bucket""]",2022-09-05,9,18.61,2025-08-28 16:57:14
+624,CAT00194,2024-08-01,Emergency,Caterpillar Emergency maintenance,3521.68,11.91,TECH3831,"[""Transmission""]",2024-12-19,10,34.16,2025-08-28 16:57:14
+625,CAT00195,2017-12-24,Emergency,Caterpillar Emergency maintenance,4871.44,7.37,TECH7204,"[""Scarifier"", ""Blade"", ""Moldboard""]",2018-12-22,9,70.09,2025-08-28 16:57:14
+626,CAT00195,2022-10-09,Preventive,Caterpillar Preventive maintenance,1462.54,10.69,TECH2347,"[""Blade"", ""Scarifier""]",2023-07-16,8,34.84,2025-08-28 16:57:14
+627,CAT00195,2025-01-05,Preventive,Caterpillar Preventive maintenance,1441.82,11.45,TECH3667,"[""Moldboard"", ""Circle"", ""Blade""]",2025-05-14,10,53.46,2025-08-28 16:57:14
+628,CAT00195,2017-09-28,Preventive,Caterpillar Preventive maintenance,2261.5,15.3,TECH5428,"[""Circle"", ""Moldboard"", ""Blade""]",2018-02-04,9,33.72,2025-08-28 16:57:14
+629,CAT00195,2024-03-18,Preventive,Caterpillar Preventive maintenance,3172.61,15.38,TECH6226,"[""Circle"", ""Blade""]",2024-10-23,8,62.28,2025-08-28 16:57:14
+630,CAT00196,2023-01-11,Corrective,Caterpillar Corrective maintenance,5947.82,14.31,TECH2715,"[""Pallet Forks"", ""Auger"", ""Snow Blower""]",2023-05-01,10,21.72,2025-08-28 16:57:14
+631,CAT00196,2023-09-16,Corrective,Caterpillar Corrective maintenance,3992.84,11.99,TECH2952,"[""Snow Blower"", ""Grapple"", ""Pallet Forks""]",2023-12-20,10,30.48,2025-08-28 16:57:14
+632,CAT00197,2019-11-14,Preventive,Caterpillar Preventive maintenance,4451.72,5.33,TECH2164,"[""Lift Arms"", ""Axle"", ""Bucket""]",2020-04-05,8,27.86,2025-08-28 16:57:14
+633,CAT00197,2024-06-02,Corrective,Caterpillar Corrective maintenance,4001.58,13.59,TECH8612,"[""Bucket"", ""Lift Arms"", ""Transmission""]",2024-11-20,10,50.17,2025-08-28 16:57:14
+634,CAT00198,2025-01-18,Emergency,Caterpillar Emergency maintenance,3580.54,13.19,TECH2913,"[""Fuel Injector"", ""Starter""]",2025-08-22,8,31.02,2025-08-28 16:57:14
+635,CAT00198,2019-06-29,Preventive,Caterpillar Preventive maintenance,2051.85,4.49,TECH1979,"[""Starter"", ""Alternator"", ""Fuel Injector""]",2020-06-17,9,55.89,2025-08-28 16:57:14
+636,CAT00198,2024-08-16,Preventive,Caterpillar Preventive maintenance,4447.29,9.91,TECH8266,"[""Voltage Regulator"", ""Starter"", ""Fuel Injector""]",2024-11-25,8,48.18,2025-08-28 16:57:14
+637,CAT00198,2022-10-26,Preventive,Caterpillar Preventive maintenance,3843.68,3.81,TECH7423,"[""Starter"", ""Fuel Injector""]",2023-10-11,9,33.2,2025-08-28 16:57:14
+638,CAT00199,2025-04-04,Preventive,Caterpillar Preventive maintenance,3686.23,10.43,TECH2000,"[""Drum"", ""Vibratory System"", ""Engine""]",2025-09-22,9,39.27,2025-08-28 16:57:14
+639,CAT00199,2018-11-01,Preventive,Caterpillar Preventive maintenance,5128.03,5.96,TECH3742,"[""Vibratory System"", ""Water System""]",2019-08-11,8,32.04,2025-08-28 16:57:14
+640,CAT00200,2024-06-05,Preventive,Caterpillar Preventive maintenance,4754.56,12.61,TECH8963,"[""Drum"", ""Vibratory System"", ""Water System""]",2025-04-30,10,13.47,2025-08-28 16:57:14
+641,CAT00200,2023-02-28,Corrective,Caterpillar Corrective maintenance,4203.27,3.29,TECH3890,"[""Vibratory System"", ""Engine""]",2023-08-03,8,24.3,2025-08-28 16:57:14
+642,CAT00200,2023-04-20,Preventive,Caterpillar Preventive maintenance,3010.96,13.61,TECH5269,"[""Vibratory System"", ""Engine"", ""Water System""]",2023-11-30,8,23.28,2025-08-28 16:57:14
+643,CAT00200,2025-05-08,Preventive,Caterpillar Preventive maintenance,1868.35,5.99,TECH2412,"[""Water System"", ""Vibratory System"", ""Engine""]",2026-03-18,8,33.58,2025-08-28 16:57:14
+644,CAT00200,2023-11-07,Preventive,Caterpillar Preventive maintenance,1638.53,11.47,TECH5970,"[""Drum"", ""Engine"", ""Vibratory System""]",2024-08-08,8,65.82,2025-08-28 16:57:14

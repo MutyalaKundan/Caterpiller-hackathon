@@ -1,0 +1,31 @@
+site_id,site_name,site_type,address,city,state,postal_code,latitude,longitude,site_manager,project_start_date,project_end_date,weather_zone,created_at
+SITE00001,Los Angeles Project 54,Mining,"1477 Mueller Glens Suite 711, Paulmouth, PW 37441",Los Angeles,Louisiana,57317,36.660235,-103.957512,Laura Bradley,2025-08-22,2025-11-18,West,2025-08-28 16:57:14
+SITE00002,New York Construction 92,Mining,"19457 Jessica Skyway Apt. 617, Meganstad, HI 68465",New York,Ohio,44337,29.252812,-87.60687,Debra Robertson,2025-05-13,2025-12-14,Northeast,2025-08-28 16:57:14
+SITE00003,Los Angeles Project 41,Infrastructure,"9606 Neal Street, East Jonathanburgh, AZ 37233",Los Angeles,Oklahoma,00918,25.694611,-108.060919,Tamara Walters,2025-05-14,2026-12-28,West,2025-08-28 16:57:14
+SITE00004,New York Development 44,Mining,"Unit 7477 Box 9236, DPO AP 15094",New York,New York,97220,35.423597,-113.661054,Maria Miller,2024-10-03,2026-05-11,Northeast,2025-08-28 16:57:14
+SITE00005,Boston Construction 91,Construction,"726 James Road Suite 896, Scottbury, CA 06638",Boston,Florida,79144,42.133532,-116.248099,Savannah Watson,2023-11-19,2027-01-09,Northeast,2025-08-28 16:57:14
+SITE00006,Houston Development 92,Infrastructure,"0600 Kelly Burg Suite 095, West Susanport, VT 53846",Houston,Idaho,41149,40.761322,-68.172988,Margaret Mitchell,2025-08-20,2026-07-25,South,2025-08-28 16:57:14
+SITE00007,Los Angeles Construction 18,Mining,"42668 Castro Views, Timothyhaven, MN 14375",Los Angeles,Tennessee,14690,42.446571,-105.600777,Tammy Rodriguez,2025-06-19,2027-04-04,West,2025-08-28 16:57:14
+SITE00008,Houston Development 3,Mining,"829 Johnson Courts, West Zachary, MA 60854",Houston,South Carolina,64775,39.278456,-105.959887,Melinda Morgan,2023-09-14,2025-12-23,South,2025-08-28 16:57:14
+SITE00009,Philadelphia Development 82,Infrastructure,"08308 Eric Rapid Suite 061, Rochachester, FL 27469",Philadelphia,Pennsylvania,33805,42.425243,-82.893398,Bonnie Pollard,2025-06-11,2027-07-25,Northeast,2025-08-28 16:57:14
+SITE00010,Philadelphia Construction 72,Infrastructure,"1092 Miller Forge, Port Rebecca, WV 03050",Philadelphia,South Dakota,67152,46.757454,-86.301005,Danny Lopez,2025-08-12,2027-03-04,Northeast,2025-08-28 16:57:14
+SITE00011,Seattle Construction 1,Construction,"14885 Myers Underpass Apt. 908, Port Sharontown, GA 13960",Seattle,New Jersey,49977,28.1897,-99.400762,Hannah Gordon,2025-07-19,2026-10-07,West,2025-08-28 16:57:14
+SITE00012,Minneapolis Construction 25,Mining,"55294 Jones Neck, Rodriguezborough, TX 92796",Minneapolis,Virginia,09420,48.713585,-69.038765,Charles Thomas,2024-06-16,2027-01-09,Midwest,2025-08-28 16:57:14
+SITE00013,Houston Construction 91,Mining,"01864 Bryan Court Apt. 298, Lake Danny, ND 74003",Houston,Arkansas,94288,45.771205,-87.299673,Erin Meyers,2024-12-04,2025-12-20,South,2025-08-28 16:57:14
+SITE00014,Minneapolis Project 16,Infrastructure,"PSC 7438, Box 3057, APO AP 14687",Minneapolis,Massachusetts,54418,43.981217,-83.653547,Carol Powell,2025-07-30,2027-08-15,Midwest,2025-08-28 16:57:14
+SITE00015,Houston Project 79,Infrastructure,"691 Brown Passage Suite 685, Kyleville, SC 61426",Houston,Tennessee,11048,34.068322,-89.426044,Kelsey Wise,2023-09-11,2027-07-07,South,2025-08-28 16:57:14
+SITE00016,Chicago Development 63,Mining,"41278 Dudley Square, Gallaghertown, IL 60473",Chicago,New Jersey,09959,31.773471,-72.334513,Jessica Goodman,2025-05-23,2026-07-09,Midwest,2025-08-28 16:57:14
+SITE00017,New York Construction 16,Infrastructure,"Unit 7124 Box 2916, DPO AP 92838",New York,Alaska,30996,31.165414,-122.065023,Carlos Jones,2024-05-27,2026-06-05,Northeast,2025-08-28 16:57:14
+SITE00018,Boston Project 70,Construction,"9382 Johnson Run, Mcdonaldport, DE 83136",Boston,Michigan,28491,48.481628,-122.071765,Jennifer Davis,2023-12-07,2026-01-26,Northeast,2025-08-28 16:57:14
+SITE00019,Detroit Development 47,Infrastructure,"80290 Bass Knoll, Lake Emilyhaven, MT 05832",Detroit,Nebraska,19967,44.890347,-93.401242,Thomas Reyes Jr.,2024-09-23,2026-10-30,Midwest,2025-08-28 16:57:14
+SITE00020,Miami Development 87,Mining,"750 Molly Village Suite 950, Sheaton, KY 39431",Miami,Nevada,11219,30.801285,-69.155725,Donald Valentine,2025-02-15,2026-04-18,South,2025-08-28 16:57:14
+SITE00021,Detroit Project 53,Infrastructure,"918 Morgan Highway, New Christina, IL 96449",Detroit,Georgia,66018,25.288933,-72.498373,Jonathon Lee,2024-09-26,2025-09-07,Midwest,2025-08-28 16:57:14
+SITE00022,Atlanta Project 5,Construction,"07889 Bell Port Suite 876, Valenciaside, WA 81215",Atlanta,Indiana,25338,26.311954,-90.921764,William Webb,2025-01-30,2026-10-09,South,2025-08-28 16:57:14
+SITE00023,Miami Development 97,Mining,"Unit 0430 Box 5761, DPO AA 93430",Miami,Connecticut,74093,47.852835,-74.362694,Michelle Johnston,2024-04-05,2026-10-24,South,2025-08-28 16:57:14
+SITE00024,Atlanta Project 39,Infrastructure,"376 Francis Ways, Lisafurt, VT 48382",Atlanta,Washington,72069,46.267448,-87.133534,Amanda Parrish,2024-04-20,2026-01-09,South,2025-08-28 16:57:14
+SITE00025,Boston Project 72,Construction,"153 Randy Ridge, Port Brandi, WV 18648",Boston,Utah,17498,46.368766,-87.045528,Devon Young,2023-10-22,2027-05-02,Northeast,2025-08-28 16:57:14
+SITE00026,Atlanta Construction 52,Infrastructure,"86556 Danielle Walks Apt. 601, North Jenniferberg, TN 12304",Atlanta,Mississippi,86234,45.993039,-74.807457,Jamie White,2025-02-26,2027-08-11,South,2025-08-28 16:57:14
+SITE00027,Los Angeles Project 100,Construction,"61534 Thomas Mountain, Mccallville, TX 77694",Los Angeles,Hawaii,80654,38.408005,-74.134444,Melissa Burnett,2024-02-18,2026-09-04,West,2025-08-28 16:57:14
+SITE00028,Chicago Development 63,Mining,"366 Donna Center, North Shawnabury, NC 60265",Chicago,Oregon,10520,46.506208,-115.736628,Clinton Sweeney,2025-08-26,2025-12-20,Midwest,2025-08-28 16:57:14
+SITE00029,Los Angeles Construction 39,Infrastructure,"4740 Glass Courts, West Wendybury, VA 96836",Los Angeles,Connecticut,91671,46.002266,-119.568686,Andrew Tyler,2024-07-31,2027-07-09,West,2025-08-28 16:57:14
+SITE00030,San Francisco Project 57,Mining,"5398 Jill Expressway, Erinborough, NY 41727",San Francisco,Delaware,10362,42.091976,-89.101915,Nathan Thompson,2025-07-10,2025-09-04,West,2025-08-28 16:57:14

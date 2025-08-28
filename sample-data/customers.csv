@@ -1,0 +1,51 @@
+customer_id,customer_name,customer_type,contact_person,phone,email,address,city,state,postal_code,credit_rating,created_at
+CUST00001,Mary Morgan,Individual,Steven Erickson,865.383.7204x2214,tsmith@example.com,"223 Alexandra Fork, Frankland, NM 90534",Boltonfort,Idaho,64018,1,2025-08-28 16:57:14
+CUST00002,Gordon LLC,Corporate,Carol Orozco,601.998.7533x93386,jasonshepard@example.com,"PSC 0728, Box 1233, APO AA 27046",South Julia,Ohio,54779,6,2025-08-28 16:57:14
+CUST00003,Brown-Knight,Corporate,Cameron Baker,+1-623-670-8617x06647,howardchristy@example.com,"63815 Collins Walks Apt. 253, Ericport, AR 36417",Lake Robertchester,Nebraska,16079,10,2025-08-28 16:57:14
+CUST00004,Larry Benson,Individual,Katie Brown,421.272.0714x26087,perryblake@example.org,"968 Allen Brook, Hillside, SD 61128",West Feliciatown,Washington,56882,3,2025-08-28 16:57:14
+CUST00005,Richards LLC,Corporate,Randall Liu,443-674-3140x4081,ksmith@example.org,"9461 Gerald Path, Perrychester, MN 76760",Jacksonside,Oklahoma,30502,7,2025-08-28 16:57:14
+CUST00006,Marcus Sullivan,Individual,Margaret Brown,202.978.3813,dalebrown@example.org,"8602 Kathleen Mill Apt. 234, Cookton, WA 39592",Mitchellland,Alabama,78826,9,2025-08-28 16:57:14
+CUST00007,Bowman-Harris,Corporate,David Spencer,964.330.8725x36494,greenechad@example.com,"6979 Yates Road Apt. 313, South Travisstad, OR 78119",North Carriemouth,Michigan,03928,2,2025-08-28 16:57:14
+CUST00008,"Mann, Garcia and Freeman",Corporate,Melissa Bell,+1-823-748-7685x026,vanessa86@example.com,"20609 Dawn Glens Suite 582, Lake Anthonyshire, AS 07065",Katherineport,New York,23247,5,2025-08-28 16:57:14
+CUST00009,Harris-Smith,Corporate,Kristina Howard,+1-860-735-1983x44797,kwolfe@example.org,"3755 Patterson Knoll, New Willie, DE 48969",Petersonfurt,Ohio,42649,7,2025-08-28 16:57:14
+CUST00010,Garner-Prince,Corporate,Kristen Nguyen,283-725-6328x145,weaverpenny@example.net,"77242 Lynch Circle, Zacharyland, MT 96463",South Derrickmouth,Illinois,70297,10,2025-08-28 16:57:14
+CUST00011,"Mcdonald, Hensley and Faulkner",Corporate,Kirk Brooks,617-861-8646,fchan@example.net,"5507 Allen Lodge, South Laurachester, CO 47920",Hicksburgh,Alabama,13652,3,2025-08-28 16:57:14
+CUST00012,Chen Ltd,Corporate,Brandon Miller,250-762-7648x0343,davislindsey@example.net,"Unit 2598 Box 3293, DPO AP 11552",Lake Christopherberg,Utah,72186,3,2025-08-28 16:57:14
+CUST00013,Simon Inc,Corporate,Stacy Clark,433.594.2923x85803,nanderson@example.net,"601 Valdez Port Apt. 747, West Melissamouth, CO 87691",South Carrie,Florida,08769,8,2025-08-28 16:57:14
+CUST00014,"Young, Lopez and Rowe",Government,Nicholas Hall,(602)286-8489x81714,patrickschultz@example.net,"7320 Amanda Mills, South Normaville, KS 72943",Lauraville,Oklahoma,49962,5,2025-08-28 16:57:14
+CUST00015,Mcclure-Molina,Corporate,Robert Kane,852.205.0468,holly26@example.net,"1724 Sarah Motorway, North James, CO 52429",Clarkbury,Tennessee,32684,7,2025-08-28 16:57:14
+CUST00016,David Taylor,Individual,Mario Ward,+1-440-747-7931,acruz@example.com,"9958 Taylor Highway, Lucasview, OK 56701",Port Mistyhaven,Colorado,26703,5,2025-08-28 16:57:14
+CUST00017,Powers-Roach,Corporate,Rebecca Sullivan,+1-684-383-8625x092,pmarshall@example.org,"03484 Bonnie Plaza Apt. 167, Gillespieville, AS 21886",Michaelfurt,Idaho,52801,9,2025-08-28 16:57:14
+CUST00018,"Conner, Richards and Hamilton",Corporate,Dana Cox,852-621-8372x00552,crogers@example.org,"7211 Flores Causeway Suite 710, Port Charlesville, MN 78898",New Kellytown,Tennessee,25926,3,2025-08-28 16:57:14
+CUST00019,William Thompson,Individual,Angela King,920.600.9987x55636,maysusan@example.org,"USNV Bell, FPO AA 65353",Weaverview,West Virginia,77581,9,2025-08-28 16:57:14
+CUST00020,Ryan Bailey,Individual,Jesse Copeland,(566)476-6926,changelizabeth@example.org,"1660 Roberts Extensions Apt. 453, New Devon, MI 70361",Monicastad,Arkansas,62873,9,2025-08-28 16:57:14
+CUST00021,Perry PLC,Corporate,Shannon Galvan,+1-379-964-2612x127,whitechase@example.net,"359 Shields Glen Suite 601, Kimberlystad, MP 82429",Katieland,Vermont,25769,9,2025-08-28 16:57:14
+CUST00022,Dougherty-Taylor,Corporate,Bailey Olsen,(775)849-0828x7481,edwardjohnson@example.net,"381 Shari Forest Suite 905, New Ryanmouth, MN 95922",Michaelmouth,Maryland,36461,2,2025-08-28 16:57:14
+CUST00023,"Jones, Chen and Owens",Corporate,Dominique Jones,258-551-7604x085,angelarojas@example.com,"0793 Ramsey Flats Suite 006, Roblesshire, VI 27163",North Margaret,Rhode Island,15596,2,2025-08-28 16:57:14
+CUST00024,Kennedy Ltd,Corporate,Beverly Hendrix,(482)856-6519,pittsanne@example.net,"98784 Perez Expressway Apt. 039, New Meghan, MH 21082",East Danielle,Illinois,47383,8,2025-08-28 16:57:14
+CUST00025,Harris-Hernandez,Corporate,Daniel Hurst,001-307-860-6928x105,adamseric@example.net,"59130 Diane Walks, Wiseburgh, AS 85767",Webbfurt,Alabama,01996,3,2025-08-28 16:57:14
+CUST00026,Katelyn Morrow,Individual,Sarah Brewer,942.840.0523x0008,hooversandra@example.com,"86554 Christopher Curve, Floresberg, PA 41011",South Louisside,Mississippi,49639,7,2025-08-28 16:57:14
+CUST00027,Perry and Sons,Corporate,Alan White,811-507-6226x23347,carloslittle@example.org,"6049 Johnson Spring, Johnshire, MN 31075",New Felicia,Wisconsin,01716,10,2025-08-28 16:57:14
+CUST00028,Obrien and Sons,Corporate,Erin May,001-921-622-8225x455,batesmichael@example.net,"PSC 9431, Box 5482, APO AP 01814",South Christinatown,Kansas,44386,7,2025-08-28 16:57:14
+CUST00029,Graham-Hammond,Corporate,Lawrence Black,(556)374-5270,byrdderek@example.org,"643 Stone Branch Apt. 310, Ambershire, MH 59817",Jesseland,Wyoming,23589,2,2025-08-28 16:57:14
+CUST00030,"Smith, Bass and Morris",Government,Joel Newton,(208)840-2619x024,johnsonvalerie@example.com,"860 Figueroa Mews, New Jenniferville, MI 07029",Clarkton,North Carolina,40773,2,2025-08-28 16:57:14
+CUST00031,Tapia PLC,Corporate,Eric Bailey,609-219-9077x1860,nixonmatthew@example.org,"930 Jeffrey Neck Suite 366, New Christyview, AL 04522",New Josephbury,Maine,68611,2,2025-08-28 16:57:14
+CUST00032,Lauren Roberts,Individual,Mary Nielsen,516.232.4035x74063,ptate@example.net,"4279 Brittany Lane, New Ashleytown, UT 48324",Christinastad,Mississippi,35091,5,2025-08-28 16:57:14
+CUST00033,Ramirez and Sons,Government,John Brewer,(736)257-2567x9521,goodwhitney@example.net,"USS Butler, FPO AA 83972",New Steven,Maryland,98153,3,2025-08-28 16:57:14
+CUST00034,Harris and Sons,Corporate,John Cooper,877-383-7855x575,brooke69@example.net,"53799 Lynch Landing Suite 204, Cunninghamview, MD 66944",New Tiffanymouth,Massachusetts,29888,5,2025-08-28 16:57:14
+CUST00035,Paige Rivas,Individual,David Hardy,001-476-674-4435x717,cynthiaperkins@example.com,"09197 Deborah Meadow, New Christopherside, NY 22373",North Jamesborough,Washington,77984,9,2025-08-28 16:57:14
+CUST00036,Noble-Villarreal,Corporate,Rebecca Miles,717-573-0407,garnerlisa@example.org,"76138 Heath Motorway, Port Jefferyberg, ID 46121",Riveraside,Wisconsin,63892,1,2025-08-28 16:57:14
+CUST00037,Howard and Sons,Corporate,Sarah Aguilar,+1-401-965-9671x821,qdavis@example.org,"7189 Jose Parkways Suite 336, Michaelborough, MA 94308",New Bruceland,Oregon,44445,9,2025-08-28 16:57:14
+CUST00038,Gaines-Contreras,Corporate,Michael Miller,236-783-4139x59931,wesley59@example.com,"690 Reynolds Turnpike, Collinsville, MI 53644",Garnertown,Wyoming,29862,1,2025-08-28 16:57:14
+CUST00039,Lewis Inc,Corporate,Tiffany Hansen,(857)228-2472x94579,joshuacompton@example.org,"Unit 0670 Box 4252, DPO AP 47184",Lake Sean,Delaware,02815,1,2025-08-28 16:57:14
+CUST00040,"Perry, Bell and Anderson",Corporate,John Good,(724)700-6986x8923,jjones@example.com,"73885 Thomas Throughway Apt. 522, Marvinmouth, GA 86494",Lake Jamesstad,Oregon,64750,3,2025-08-28 16:57:14
+CUST00041,Carl Sanchez,Individual,Crystal Pham,756-642-5295x06630,sandra23@example.com,"2295 Patricia Junctions, Alanshire, CT 27839",Reesemouth,Kansas,16206,1,2025-08-28 16:57:14
+CUST00042,Mark Thomas,Individual,Michael Rice,696-243-2755x826,ashleyadams@example.net,"489 Sparks Viaduct Suite 979, Grayton, NY 23117",East Timothytown,Montana,74369,3,2025-08-28 16:57:14
+CUST00043,Wang-Meyer,Corporate,Emily Johnson,982.707.3391x9128,brandon78@example.org,"953 Christopher Stravenue Apt. 514, Colemanburgh, ID 00957",Jonesstad,Oklahoma,97302,3,2025-08-28 16:57:14
+CUST00044,Nicholas Howe,Individual,Stephanie Brown,451-896-9136,cherryeileen@example.org,"42543 Brian Plains, Wilsonfurt, AK 86183",Wagnermouth,Minnesota,64491,8,2025-08-28 16:57:14
+CUST00045,"Hayes, Chen and Watts",Corporate,Brittany Hall,221.782.4717,pchristian@example.org,"322 Courtney Gardens Suite 308, New Michaelmouth, DC 29243",South Jessicaport,New Hampshire,12544,10,2025-08-28 16:57:14
+CUST00046,"Johnson, Villa and Roth",Corporate,Jerry Jones,001-390-840-9065,belllaura@example.org,"9552 Murray Glens, Warrenfort, PA 13102",Campbellstad,Oklahoma,57833,6,2025-08-28 16:57:14
+CUST00047,Michael Cline,Individual,Ricardo Smith,(422)817-7402,bruce90@example.net,"7415 Guzman Plaza Suite 424, Millerland, IA 64661",West Elizabeth,Indiana,10805,7,2025-08-28 16:57:14
+CUST00048,Thomas-Alvarez,Corporate,Samuel Osborne,9742851091,qmccormick@example.net,"PSC 9925, Box 2447, APO AE 35701",Matthewburgh,Texas,28551,9,2025-08-28 16:57:14
+CUST00049,Christine Robinson,Individual,Misty Hudson,890.301.5538x2254,ohampton@example.net,"49819 Kidd Circles Suite 071, Hamiltonview, AL 70124",Murphyberg,Hawaii,60129,8,2025-08-28 16:57:14
+CUST00050,Cobb Ltd,Corporate,Brittany Hall,(984)542-4789,travismorrison@example.net,"770 Gabriel Parkways Apt. 833, Tylerton, AK 89986",North Davidhaven,North Carolina,38354,9,2025-08-28 16:57:14

@@ -1,0 +1,119 @@
+alert_id,equipment_id,rental_id,alert_type,alert_message,severity,created_at,acknowledged_at,resolved_at,status
+1,CAT00072,RENT000005,overdue,Equipment overdue by 3 days,Medium,2023-10-17 00:00:00,,2025-08-28 16:57:15,Resolved
+2,CAT00154,RENT000018,overdue,Equipment overdue by 14 days,High,2025-07-04 00:00:00,2025-08-28 16:57:15,,Resolved
+3,CAT00025,RENT000021,overdue,Equipment overdue by 5 days,Medium,2023-11-24 00:00:00,2025-08-28 16:57:15,,Resolved
+4,CAT00015,RENT000026,overdue,Equipment overdue by 4 days,Medium,2025-07-12 00:00:00,,,Resolved
+5,CAT00187,RENT000036,overdue,Equipment overdue by 6 days,Medium,2025-05-18 00:00:00,2025-08-28 16:57:15,,Active
+6,CAT00043,RENT000043,overdue,Equipment overdue by 1 days,Medium,2024-04-09 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+7,CAT00188,RENT000050,overdue,Equipment overdue by 5 days,Medium,2025-03-19 00:00:00,,,Resolved
+8,CAT00114,RENT000060,overdue,Equipment overdue by 7 days,Medium,2025-05-04 00:00:00,2025-08-28 16:57:15,,Resolved
+9,CAT00177,RENT000062,overdue,Equipment overdue by 4 days,Medium,2024-03-04 00:00:00,2025-08-28 16:57:15,,Resolved
+10,CAT00190,RENT000063,overdue,Equipment overdue by 6 days,Medium,2024-10-18 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+11,CAT00023,RENT000078,overdue,Equipment overdue by 2 days,Medium,2024-08-01 00:00:00,2025-08-28 16:57:15,,Resolved
+12,CAT00037,RENT000091,overdue,Equipment overdue by 6 days,Medium,2024-05-12 00:00:00,2025-08-28 16:57:15,,Active
+13,CAT00061,RENT000096,overdue,Equipment overdue by 2 days,Medium,2023-12-11 00:00:00,,,Resolved
+14,CAT00065,RENT000107,overdue,Equipment overdue by 23 days,High,2025-03-26 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+15,CAT00143,RENT000113,overdue,Equipment overdue by 3 days,Medium,2024-07-24 00:00:00,,2025-08-28 16:57:15,Active
+16,CAT00084,RENT000122,overdue,Equipment overdue by 7 days,Medium,2024-10-27 00:00:00,,2025-08-28 16:57:15,Active
+17,CAT00009,RENT000129,overdue,Equipment overdue by 4 days,Medium,2024-11-01 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+18,CAT00165,RENT000142,overdue,Equipment overdue by 7 days,Medium,2023-10-18 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+19,CAT00119,RENT000154,overdue,Equipment overdue by 3 days,Medium,2024-06-09 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+20,CAT00036,RENT000161,overdue,Equipment overdue by 3 days,Medium,2024-03-25 00:00:00,,2025-08-28 16:57:15,Active
+21,CAT00038,RENT000179,overdue,Equipment overdue by 3 days,Medium,2025-02-27 00:00:00,,2025-08-28 16:57:15,Resolved
+22,CAT00177,RENT000180,overdue,Equipment overdue by 7 days,Medium,2025-05-23 00:00:00,2025-08-28 16:57:15,,Resolved
+23,CAT00038,RENT000182,overdue,Equipment overdue by 5 days,Medium,2024-03-11 00:00:00,,2025-08-28 16:57:15,Active
+24,CAT00157,RENT000186,overdue,Equipment overdue by 1 days,Medium,2023-10-15 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+25,CAT00107,RENT000195,overdue,Equipment overdue by 3 days,Medium,2024-02-19 00:00:00,,2025-08-28 16:57:15,Resolved
+26,CAT00140,RENT000207,overdue,Equipment overdue by 4 days,Medium,2024-04-12 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+27,CAT00149,RENT000209,overdue,Equipment overdue by 6 days,Medium,2024-10-20 00:00:00,,,Active
+28,CAT00098,RENT000211,overdue,Equipment overdue by 2 days,Medium,2024-10-27 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+29,CAT00196,RENT000232,overdue,Equipment overdue by 7 days,Medium,2024-04-01 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+30,CAT00190,RENT000233,overdue,Equipment overdue by 7 days,Medium,2024-11-06 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+31,CAT00117,RENT000236,overdue,Equipment overdue by 5 days,Medium,2024-12-05 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+32,CAT00171,RENT000240,overdue,Equipment overdue by 6 days,Medium,2024-09-12 00:00:00,,2025-08-28 16:57:15,Resolved
+33,CAT00086,RENT000243,overdue,Equipment overdue by 4 days,Medium,2025-01-14 00:00:00,,2025-08-28 16:57:15,Active
+34,CAT00040,RENT000257,overdue,Equipment overdue by 7 days,Medium,2024-02-28 00:00:00,,2025-08-28 16:57:15,Resolved
+35,CAT00168,RENT000260,overdue,Equipment overdue by 3 days,Medium,2024-01-06 00:00:00,,2025-08-28 16:57:15,Resolved
+36,CAT00151,RENT000263,overdue,Equipment overdue by 4 days,Medium,2025-07-27 00:00:00,2025-08-28 16:57:15,,Resolved
+37,CAT00019,RENT000265,overdue,Equipment overdue by 1 days,Medium,2025-08-02 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+38,CAT00046,RENT000276,overdue,Equipment overdue by 5 days,Medium,2025-05-09 00:00:00,,2025-08-28 16:57:15,Active
+39,CAT00162,RENT000286,overdue,Equipment overdue by 7 days,Medium,2024-07-06 00:00:00,,2025-08-28 16:57:15,Resolved
+40,CAT00050,RENT000294,overdue,Equipment overdue by 6 days,Medium,2025-03-28 00:00:00,2025-08-28 16:57:15,,Resolved
+41,CAT00118,RENT000308,overdue,Equipment overdue by 7 days,Medium,2025-07-25 00:00:00,2025-08-28 16:57:15,,Resolved
+42,CAT00097,RENT000314,overdue,Equipment overdue by 7 days,Medium,2024-07-24 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+43,CAT00106,RENT000319,overdue,Equipment overdue by 3 days,Medium,2024-06-10 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+44,CAT00179,RENT000326,overdue,Equipment overdue by 1 days,Medium,2024-10-27 00:00:00,2025-08-28 16:57:15,,Resolved
+45,CAT00012,RENT000339,overdue,Equipment overdue by 3 days,Medium,2024-07-03 00:00:00,,2025-08-28 16:57:15,Resolved
+46,CAT00092,RENT000348,overdue,Equipment overdue by 4 days,Medium,2024-05-10 00:00:00,,2025-08-28 16:57:15,Resolved
+47,CAT00051,RENT000371,overdue,Equipment overdue by 1 days,Medium,2025-07-05 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+48,CAT00163,RENT000386,overdue,Equipment overdue by 2 days,Medium,2025-08-20 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+49,CAT00058,RENT000391,overdue,Equipment overdue by 5 days,Medium,2025-01-18 00:00:00,2025-08-28 16:57:15,,Active
+50,CAT00192,RENT000415,overdue,Equipment overdue by 5 days,Medium,2024-12-23 00:00:00,,2025-08-28 16:57:15,Resolved
+51,CAT00129,RENT000416,overdue,Equipment overdue by 4 days,Medium,2023-10-02 00:00:00,,2025-08-28 16:57:15,Active
+52,CAT00140,RENT000432,overdue,Equipment overdue by 13 days,High,2023-12-13 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+53,CAT00104,RENT000433,overdue,Equipment overdue by 4 days,Medium,2025-07-15 00:00:00,,2025-08-28 16:57:15,Resolved
+54,CAT00139,RENT000450,overdue,Equipment overdue by 5 days,Medium,2025-03-15 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+55,CAT00145,RENT000453,overdue,Equipment overdue by 23 days,High,2024-11-28 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+56,CAT00121,RENT000472,overdue,Equipment overdue by 7 days,Medium,2025-03-04 00:00:00,,2025-08-28 16:57:15,Resolved
+57,CAT00080,RENT000499,overdue,Equipment overdue by 2 days,Medium,2024-01-12 00:00:00,,2025-08-28 16:57:15,Resolved
+58,CAT00162,RENT000503,overdue,Equipment overdue by 1 days,Medium,2024-11-21 00:00:00,,,Active
+59,CAT00049,RENT000506,overdue,Equipment overdue by 7 days,Medium,2023-09-30 00:00:00,,2025-08-28 16:57:15,Active
+60,CAT00036,RENT000507,overdue,Equipment overdue by 2 days,Medium,2025-02-21 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+61,CAT00127,RENT000520,overdue,Equipment overdue by 2 days,Medium,2024-04-19 00:00:00,2025-08-28 16:57:15,,Active
+62,CAT00094,RENT000530,overdue,Equipment overdue by 2 days,Medium,2024-08-28 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+63,CAT00199,RENT000538,overdue,Equipment overdue by 1 days,Medium,2023-10-16 00:00:00,,2025-08-28 16:57:15,Active
+64,CAT00108,RENT000547,overdue,Equipment overdue by 5 days,Medium,2025-06-03 00:00:00,,,Active
+65,CAT00191,RENT000548,overdue,Equipment overdue by 6 days,Medium,2024-06-12 00:00:00,2025-08-28 16:57:15,,Resolved
+66,CAT00101,RENT000549,overdue,Equipment overdue by 4 days,Medium,2024-01-04 00:00:00,2025-08-28 16:57:15,,Resolved
+67,CAT00143,RENT000560,overdue,Equipment overdue by 4 days,Medium,2024-11-09 00:00:00,2025-08-28 16:57:15,,Resolved
+68,CAT00097,RENT000567,overdue,Equipment overdue by 7 days,Medium,2025-02-06 00:00:00,2025-08-28 16:57:15,,Resolved
+69,CAT00057,RENT000592,overdue,Equipment overdue by 2 days,Medium,2024-12-07 00:00:00,,2025-08-28 16:57:15,Active
+70,CAT00060,RENT000596,overdue,Equipment overdue by 4 days,Medium,2025-09-05 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+71,CAT00139,RENT000598,overdue,Equipment overdue by 4 days,Medium,2024-09-22 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+72,CAT00089,RENT000616,overdue,Equipment overdue by 5 days,Medium,2024-06-16 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+73,CAT00174,RENT000623,overdue,Equipment overdue by 6 days,Medium,2024-09-19 00:00:00,,2025-08-28 16:57:15,Active
+74,CAT00133,RENT000646,overdue,Equipment overdue by 1 days,Medium,2025-01-01 00:00:00,,2025-08-28 16:57:15,Resolved
+75,CAT00031,RENT000681,overdue,Equipment overdue by 2 days,Medium,2025-03-10 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+76,CAT00126,RENT000686,overdue,Equipment overdue by 3 days,Medium,2025-09-15 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+77,CAT00019,RENT000699,overdue,Equipment overdue by 29 days,High,2023-11-07 00:00:00,,,Active
+78,CAT00141,RENT000709,overdue,Equipment overdue by 7 days,Medium,2024-04-30 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+79,CAT00120,RENT000710,overdue,Equipment overdue by 3 days,Medium,2024-04-20 00:00:00,2025-08-28 16:57:15,,Resolved
+80,CAT00166,RENT000717,overdue,Equipment overdue by 7 days,Medium,2024-08-19 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+81,CAT00004,RENT000729,overdue,Equipment overdue by 1 days,Medium,2025-04-27 00:00:00,,2025-08-28 16:57:15,Resolved
+82,CAT00090,RENT000731,overdue,Equipment overdue by 2 days,Medium,2024-07-22 00:00:00,,2025-08-28 16:57:15,Active
+83,CAT00038,RENT000735,overdue,Equipment overdue by 2 days,Medium,2024-07-08 00:00:00,,2025-08-28 16:57:15,Active
+84,CAT00027,RENT000738,overdue,Equipment overdue by 7 days,Medium,2025-11-20 00:00:00,,2025-08-28 16:57:15,Resolved
+85,CAT00011,RENT000750,overdue,Equipment overdue by 1 days,Medium,2025-03-15 00:00:00,,,Resolved
+86,CAT00078,RENT000753,overdue,Equipment overdue by 3 days,Medium,2025-08-29 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+87,CAT00120,RENT000778,overdue,Equipment overdue by 5 days,Medium,2024-09-11 00:00:00,,,Resolved
+88,CAT00170,RENT000780,overdue,Equipment overdue by 1 days,Medium,2025-01-19 00:00:00,2025-08-28 16:57:15,,Active
+89,CAT00112,RENT000782,overdue,Equipment overdue by 2 days,Medium,2024-10-23 00:00:00,,2025-08-28 16:57:15,Resolved
+90,CAT00036,RENT000797,overdue,Equipment overdue by 5 days,Medium,2024-07-21 00:00:00,2025-08-28 16:57:15,,Resolved
+91,CAT00166,RENT000808,overdue,Equipment overdue by 4 days,Medium,2025-07-07 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+92,CAT00200,RENT000815,overdue,Equipment overdue by 1 days,Medium,2024-08-30 00:00:00,2025-08-28 16:57:15,,Resolved
+93,CAT00090,RENT000819,overdue,Equipment overdue by 7 days,Medium,2024-08-31 00:00:00,2025-08-28 16:57:15,,Resolved
+94,CAT00108,RENT000828,overdue,Equipment overdue by 4 days,Medium,2024-02-16 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+95,CAT00170,RENT000830,overdue,Equipment overdue by 5 days,Medium,2024-05-28 00:00:00,,2025-08-28 16:57:15,Resolved
+96,CAT00099,RENT000855,overdue,Equipment overdue by 5 days,Medium,2024-01-26 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+97,CAT00092,RENT000866,overdue,Equipment overdue by 3 days,Medium,2025-03-04 00:00:00,,2025-08-28 16:57:15,Resolved
+98,CAT00153,RENT000872,overdue,Equipment overdue by 3 days,Medium,2025-02-06 00:00:00,,,Active
+99,CAT00152,RENT000874,overdue,Equipment overdue by 3 days,Medium,2024-09-16 00:00:00,,2025-08-28 16:57:15,Resolved
+100,CAT00084,RENT000881,overdue,Equipment overdue by 3 days,Medium,2025-05-29 00:00:00,,2025-08-28 16:57:15,Active
+101,CAT00088,RENT000885,overdue,Equipment overdue by 3 days,Medium,2024-09-27 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+102,CAT00134,RENT000891,overdue,Equipment overdue by 4 days,Medium,2024-08-08 00:00:00,,2025-08-28 16:57:15,Resolved
+103,CAT00052,RENT000908,overdue,Equipment overdue by 6 days,Medium,2023-11-26 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+104,CAT00020,RENT000914,overdue,Equipment overdue by 7 days,Medium,2024-08-28 00:00:00,2025-08-28 16:57:15,,Resolved
+105,CAT00058,RENT000921,overdue,Equipment overdue by 3 days,Medium,2024-04-13 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Resolved
+106,CAT00065,RENT000942,overdue,Equipment overdue by 24 days,High,2024-05-22 00:00:00,2025-08-28 16:57:15,,Resolved
+107,CAT00071,RENT000943,overdue,Equipment overdue by 22 days,High,2024-11-23 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+108,CAT00082,RENT000948,overdue,Equipment overdue by 7 days,Medium,2025-01-05 00:00:00,,2025-08-28 16:57:15,Resolved
+109,CAT00153,RENT000949,overdue,Equipment overdue by 1 days,Medium,2025-09-12 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+110,CAT00093,RENT000952,overdue,Equipment overdue by 7 days,Medium,2024-05-11 00:00:00,,,Resolved
+111,CAT00185,RENT000953,overdue,Equipment overdue by 7 days,Medium,2023-12-23 00:00:00,,2025-08-28 16:57:15,Resolved
+112,CAT00015,RENT000955,overdue,Equipment overdue by 7 days,Medium,2025-09-05 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+113,CAT00003,RENT000961,overdue,Equipment overdue by 1 days,Medium,2024-05-27 00:00:00,2025-08-28 16:57:15,,Resolved
+114,CAT00095,RENT000963,overdue,Equipment overdue by 7 days,Medium,2024-08-10 00:00:00,,,Active
+115,CAT00023,RENT000971,overdue,Equipment overdue by 3 days,Medium,2025-09-04 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+116,CAT00155,RENT000980,overdue,Equipment overdue by 7 days,Medium,2024-12-25 00:00:00,,,Resolved
+117,CAT00054,RENT000994,overdue,Equipment overdue by 7 days,Medium,2023-12-17 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
+118,CAT00010,RENT000995,overdue,Equipment overdue by 4 days,Medium,2025-03-07 00:00:00,2025-08-28 16:57:15,2025-08-28 16:57:15,Active
