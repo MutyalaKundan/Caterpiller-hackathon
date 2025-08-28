@@ -1,18 +1,44 @@
+import { useState, useEffect } from "react";
 import { KPICards } from "@/components/dashboard/KPICards";
 import { EquipmentTable } from "@/components/dashboard/EquipmentTable";
 import { AlertsPanel } from "@/components/dashboard/AlertsPanel";
 import { UtilizationChart } from "@/components/dashboard/UtilizationChart";
-import { 
-  mockDashboardKPIs, 
-  mockEquipmentTableData, 
-  getActiveAlerts 
-} from "@/data/mockData";
+import { dashboardApi, equipmentApi, alertsApi } from "@/services/api";
 import caterpillarHero from "@/assets/caterpillar-hero.jpg";
+import type { DashboardKPIs, EquipmentTableRow, Alert } from "@/types";
 
 export default function Dashboard() {
-  const kpis = mockDashboardKPIs;
-  const equipment = mockEquipmentTableData;
-  const alerts = getActiveAlerts();
+  const [kpis, setKpis] = useState<DashboardKPIs>({
+    totalRentedEquipment: 0,
+    activeRentals: 0,
+    overdueRentals: 0,
+    averageUtilization: 0,
+  });
+  const [equipment, setEquipment] = useState<EquipmentTableRow[]>([]);
+  const [alerts, setAlerts] = useState<Alert[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchDashboardData = async () => {
+      try {
+        const [kpisRes, equipmentRes, alertsRes] = await Promise.all([
+          dashboardApi.getKPIs(),
+          equipmentApi.getAll(),
+          alertsApi.getAll({ status: 'Active' })
+        ]);
+        
+        setKpis(kpisRes.data);
+        setEquipment(equipmentRes.data);
+        setAlerts(alertsRes.data);
+      } catch (error) {
+        console.error('Error fetching dashboard data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchDashboardData();
+  }, []);
 
   return (
     <div className="flex-1">
