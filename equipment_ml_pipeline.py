@@ -82,7 +82,8 @@ class EquipmentMLPipeline:
         
         # Prophet-specific models for demand forecasting
         self.prophet_models = {}  # Store models by location and equipment type
-        self.use_prophet = PROPHET_AVAILABLE
+        # self.use_prophet = PROPHET_AVAILABLE
+        self.use_prophet = False  # Disable Prophet for now due to environment issues
         
     def load_csv_data(self, data_path='.'):
         """Load and integrate real equipment data from CSV files"""
@@ -883,7 +884,7 @@ class EquipmentMLPipeline:
         print("\nTraining Return Date Prediction Model...")
         
         features = ['equipment_type_encoded', 'location_encoded', 'age_months', 
-                   'usage_hours', 'demand', 'month']
+                   'usage_hours', 'month']
         
         X = df[features]
         y = df['rental_duration']
@@ -966,7 +967,7 @@ class EquipmentMLPipeline:
         
         # Return date prediction
         return_features = ['equipment_type_encoded', 'location_encoded', 'age_months', 
-                          'usage_hours', 'demand', 'month']
+                          'usage_hours', 'month']
         rental_duration = self.return_model.predict(df_processed[return_features])[0]
         results['predicted_rental_duration'] = max(1, int(rental_duration))
         
@@ -1305,7 +1306,7 @@ def main():
     print("  • Actual maintenance records and anomalies")
     print("  • Rental histories and utilization patterns")
     
-    df = pipeline.load_csv_data(data_path='.')
+    df = pipeline.load_csv_data(data_path='./sample-data/')
     print(f"✅ Loaded and integrated {len(df):,} equipment records from CSV files")
     
     # 📋 Step 2.5: Validate and summarize real data
@@ -1447,7 +1448,7 @@ def main():
     print("\n✅ Pipeline execution complete! Models ready for predictions.")
     print("=" * 60)
     
-    return pipeline, data
+    return pipeline, df
 
 # Execute if running in Colab or directly
 if __name__ == "__main__":
